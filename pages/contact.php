@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<?php include 'subcode/head.php'?>
+<body>
+<div class="parent">
+
+<?php include 'subcode/header.php'?>
+    <main>
+        <section class="contact-page">
+            <div class="container">
+                <div class="tack-with-us">
+                    <h1>Let's talk with Us</h1>
+                    <p>Have a project in mind that you think we'd be a great fit for it? we'd love to know what you're</p>
+                    <h4>Contact Info :</h4>
+                    <div class="data">
+                        <p>Phone Number:(+2)01021246070</p>
+                        <p>Email: Hello@studio.io</p>
+                        <p>Map Street: Johan Bucarest St. 199 </p>
+                    </div>
+                </div>
+                <form class="form-talk">
+                    <div class="box1">
+                        <div class="box">
+                            <label for="fname">First name</label>
+                            <input type="text" id="fname" name="fname" placeholder="Input your first name here">
+                        </div>
+                        <div class="box">
+                            <label for="lname">Last name</label>
+                            <input type="text" id="lname" name="lname" placeholder="Input your last name here"> 
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="box">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Input your email here">
+                        </div>
+                        <div class="box">
+                            <label for="cname">Company name</label>
+                            <input type="text" id="cname" name="cname" placeholder="Input your company name here">
+                        </div>
+                    </div>
+                    <label for="massage">Massage</label><br>
+                    <textarea placeholder="Describe yourself here..." id="massage" name="massage" rows="4" cols="50"> 
+                    </textarea>
+                    <input class="submit" type="submit" value="Send Massage">
+                </form>
+            </div>
+        </section>
+
+    </main>
+<?php include 'subcode/footer.php'?>
+</div>
+
+<?php include 'subcode/script.php'?>
+</body>
+</html>
