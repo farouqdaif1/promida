@@ -8,7 +8,7 @@
         <section class="services services-background">
             <div class="container services-container">
                     <h2 class="our-services">Our Services</h2>
-                    <p class="prag-services">Full-service Masterly agency that provides a wide range of services in almost all aspects of marketing and advertising We are  people, relationships and the convergence of vision, focus and teamwork to deliver the best digital strategies and results your brand is looking.</p>
+                    <p class="prag-services">Providing You Our Digital Services Thats Suits your Brand Starting From Branding Integrated with Business Needs to Web & App Development </p>
                     <p class="prag-services">We are first digital marketing agency in Behaira and leading agency in Alexandria </p>
                 <div class="all-services-small">
                             <a id="branding" class="branding-e card-small card-active">
@@ -44,7 +44,7 @@
                                 <i class="fa-solid fa-tv media-e"></i>
                                     <span class="media-e">05</span>
                                 </div>
-                                <h3 class="media-e">Media buying plane</h3>
+                                <h3 class="media-e">Media buying plan</h3>
                             </a>
                             <a id="strategies" class="card-small strategies-e">
                                 <div class="title strategies-e">
@@ -60,14 +60,12 @@
                     <div class="article-head-container">
                             <div class="container">
                                 <div class="article-head">
-                                    <h2>website & Mobile Apps creation & development</h2>
-                                    <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                                        we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                                        And Showcase your services or products in the Best way.</p>                            
+                                    <h2>Branding & Creating full identity system</h2>
+                                    <p>It is the art of Creating your Unique Identity </p>                            
                                 </div>
                                 <div class="circle-container">
                                     <div class="circle">
-                                        <img class="header-image"src="../images/group-29@2x.png" alt="computer-image">
+                                        <img class="header-image"src="../images/BRANDING.png" alt="computer-image">
                                     </div>
                                 </div>
                         </div>
@@ -75,17 +73,11 @@
                     <div class="work-process">
                         <div class="container">
                             <h2>Work Process</h2>
-                            <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                            we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                            And Showcase your services or products in the Best way.</p>
+                            <p>Our Role is to Create your Story and Make these Promises come true </p>
 
-                            <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                            we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                            And Showcase your services or products in the Best way.</p>
+                            <p>To Make your Customer Trust You.</p>
 
-                            <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                            we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                            And Showcase your services or products in the Best way.</p>
+                            <p>Our creative visual designers and branding specialists work together to a wide variety of business challenges.</p>
                         </div>
                         <img class="layer"src="../images/layer-12@2x.png" alt="layer">
                     </div>
@@ -109,7 +101,7 @@
 
                                 <div class="circle-container">
                                     <div class="circle">
-                                        <img class="header-image"src="../images/group-29@2x.png" alt="computer-image">
+                                        <img class="header-image"src="../images/website.png" alt="computer-image">
                                     </div>
                                 </div>
                         </div>
@@ -145,14 +137,14 @@
                     <div class="article-head-container">
                             <div class="container">
                                 <div class="article-head">
-                                    <h2>website & Mobile Apps creation & development</h2>
+                                    <h2>Social Media Marketing</h2>
                                     <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
                                         we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
                                         And Showcase your services or products in the Best way.</p>                            </div>
 
                                 <div class="circle-container">
                                     <div class="circle">
-                                        <img class="header-image"src="../images/group-29@2x.png" alt="computer-image">
+                                        <img class="header-image"src="../images/socialmedia.png" alt="computer-image">
                                     </div>
                                 </div>
                         </div>
@@ -190,14 +182,21 @@
                     <div class="article-head-container">
                             <div class="container">
                                 <div class="article-head">
-                                    <h2>website & Mobile Apps creation & development</h2>
-                                    <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                                        we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                                        And Showcase your services or products in the Best way.</p>                            </div>
+                                    <h2>Media buying plan</h2>
+                                    <p>Show Off is what Media Production Really Means </p>
+                                    <ul>
+                                        <li>Photo Sessions</li>
+                                        <li>Motion Graphic Videos </li>
+                                        <li>Animated Videos </li>
+                                        <li>Video graphy</li>
+                                        <li>Voice Over</li>
+                                        <li>Short Movies</li>
+                                    </ul>
+                                    </div>
 
                                 <div class="circle-container">
                                     <div class="circle">
-                                        <img class="header-image"src="../images/group-29@2x.png" alt="computer-image">
+                                        <img class="header-image"src="../images/medi-production.png" alt="computer-image">
                                     </div>
                                 </div>
                         </div>
@@ -240,7 +239,7 @@
 
                                 <div class="circle-container">
                                     <div class="circle">
-                                        <img class="header-image"src="../images/group-29@2x.png" alt="computer-image">
+                                        <img class="header-image"src="../images/media-buying.png" alt="computer-image">
                                     </div>
                                 </div>
                         </div>
@@ -277,13 +276,13 @@
                     <div class="article-head-container">
                             <div class="container">
                                 <div class="article-head">
-                                    <h2>website & Mobile Apps creation & development</h2>
+                                    <h2>Creating Strategies</h2>
                                     <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
                                         we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
                                         And Showcase your services or products in the Best way.</p>                            </div>
                                 <div class="circle-container">
                                     <div class="circle">
-                                        <img class="header-image"src="../images/group-29@2x.png" alt="computer-image">
+                                        <img class="header-image"src="../images/startegy.png" alt="computer-image">
                                     </div>
                                 </div>
                         </div>
@@ -317,7 +316,7 @@
                 </article>
         </section>
     </main>
-    <?php include 'subcode/footer.php'?>
+<?php include 'subcode/footer.php'?>
 </div>
 <?php include 'subcode/script.php'?>
 <script>

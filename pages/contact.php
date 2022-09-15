@@ -13,9 +13,9 @@
                     <p>Have a project in mind that you think we'd be a great fit for it? we'd love to know what you're</p>
                     <h4>Contact Info :</h4>
                     <div class="data">
-                        <p>Phone Number:(+2)01021246070</p>
-                        <p>Email: Hello@studio.io</p>
-                        <p>Map Street: Johan Bucarest St. 199 </p>
+                        <p>Phone Number:(+2)01002387494</p>
+                        <p>Email: info@promida.net</p>
+                        <p>Address: <a href="https://goo.gl/maps/n66VcQgAd52Cx6tJA">Fuad st. " AL-Horya Rd" Alexandria Egypt </a></p>
                     </div>
                 </div>
                 <form class="form-talk">

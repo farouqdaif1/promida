@@ -44,7 +44,7 @@
                 <div class="container">
                     <div class="landing-header">
                         <h1>Embrace</br> Your Legacy</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                        <p>It began with searching of Glory and strength That's How you what to begin too,So here is our path together …</p>
                         <a href=""><i class="fa-solid fa-circle-play"></i> Showreel!</a>
                     </div>
                     <div class="landing-image">
@@ -125,6 +125,35 @@
             <?php include 'pages/subcode/workwith.php'?>
 
             <!-- END WORK WITH -->
+             <!-- start Over all -->
+             <section class="over-all">
+                <div class="container">
+                    <h2>Trusted by</h2>
+                    <div class="nums">
+                        <div class="countainer-num">
+                        <span class="plus">+</span>
+                            <div class="num" data-goal="50">0</div>
+                            <div class="text-num">More than  50 clintes </br>All over Delta Region</div>
+                        </div>
+                        <div class="countainer-num">
+                        <span class="plus">+</span>
+                            <div class="num" data-goal="100">0</div>
+                            <div class="text-num">More than  </br>100 sucsseful campaigns</div>
+                        </div>
+                        <div class="countainer-num">
+                            <span class="plus">+</span>
+                            <div class="num" data-goal="30">0</div>
+                            <div class="text-num">More than </byr> 30 case studies and </br>media buying plane solution</div>
+                        </div>
+                        <div class="countainer-num">
+                            <span class="plus">+</span>
+                            <div class="num" data-goal="45">0</div>
+                            <div class="text-num">More than 45 media </br>Production campaingns</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END Over all -->
             <!-- start CONTACT -->
             <section class="contact">
             <div class="be-with-us">
@@ -149,13 +178,11 @@
                     <p class="rights">© 2022. All Rights Reserved. </p>
                     </div>
                     <ul>
-                        <li><a  class="links" href="index.php"> <i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <li><a  class="links" href="services.php"> <i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a  class="links" href="work.php"> <i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a  class="links" href="people.php"> <i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a  class="links" href="about.php"> <i class="fa-brands fa-whatsapp"></i></a></li>
-                        <li><a  class="links" href="reviews.php"> <i class="fa-brands fa-youtube"></i></a></li>
-                        <li><a  class="links" href="reviews.php"> <i class="fa-brands fa-behance"></i></a></li>
+                        <li><a  class="links" href="https://www.linkedin.com/company/promidadigialagency/"> <i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a  class="links" href="https://www.facebook.com/PromidaDigitalMarketing/?_rdc=2&_rdr"> <i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a  class="links" href="https://www.instagram.com/promida.digital/"> <i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a  class="links" href="https://www.youtube.com/channel/UCj_DLx9f0JXituqDinf16ww"> <i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a  class="links" href="https://www.behance.net/Promida"> <i class="fa-brands fa-behance"></i></a></li>
                     </ul>
                 </div>
         </footer>
@@ -163,6 +190,7 @@
         <!-- start footer -->
 
     </div>
+    
     <script >
         const menu = document.querySelector('.toggle-menu');
         const button= document.querySelector('.close-btn')
@@ -176,5 +204,7 @@
         menu.addEventListener('click', showMenu);
         button.addEventListener('click', showMenu);
     </script>
+   <?php include 'pages/subcode/slider.php'?>
+   <?php include 'pages/subcode/counter.php'?>
 </body>
 </html>

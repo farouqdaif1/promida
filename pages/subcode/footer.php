@@ -6,13 +6,11 @@
             <p class="rights">© 2022. All Rights Reserved. </p>
             </div>
             <ul>
-                <li><a class="links" href="index.php"> <i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li><a class="links" href="services.php"> <i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a class="links" href="work.php"> <i class="fa-brands fa-instagram"></i></a></li>
-                <li><a class="links" href="people.php"> <i class="fa-brands fa-twitter"></i></a></li>
-                <li><a class="links" href="about.php"> <i class="fa-brands fa-whatsapp"></i></a></li>
-                <li><a class="links" href="reviews.php"> <i class="fa-brands fa-youtube"></i></a></li>
-                <li><a class="links" href="reviews.php"> <i class="fa-brands fa-behance"></i></a></li>
+                        <li><a  class="links" href="https://www.linkedin.com/company/promidadigialagency/"> <i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a  class="links" href="https://www.facebook.com/PromidaDigitalMarketing/?_rdc=2&_rdr"> <i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a  class="links" href="https://www.instagram.com/promida.digital/"> <i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a  class="links" href="https://www.youtube.com/channel/UCj_DLx9f0JXituqDinf16ww"> <i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a  class="links" href="https://www.behance.net/Promida"> <i class="fa-brands fa-behance"></i></a></li>
             </ul>
     </div>        
 </footer>

@@ -175,8 +175,9 @@ main .landing div.container{
 }
 
 .landing-header p{
+  font-size: 1.2em;  
   color: var(--sec-color);
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 
 }
 .landing-header a{
@@ -185,7 +186,7 @@ main .landing div.container{
   color: var(--sec-color);
   margin-bottom: 5%;
   background-color: #d13536;
-  padding: 5px 20px 5px 20px;
+  padding: 5px 25px 5px 20px;
   border-radius: 15px 15px;
   -webkit-border-radius: 15px 15px;
   -moz-border-radius: 15px 15px;
@@ -194,6 +195,7 @@ main .landing div.container{
 }
 
 .landing-image{
+  width:70%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -430,7 +432,12 @@ main .work-with div.container {
   justify-content: center;
   align-items: center;
 }
+.slideshow-container{
+  width: 80%;
+
+}
 .story-container{
+  width: 100%;
   height: 35%;
 }
 main .work-with div.container  h2{
@@ -460,6 +467,51 @@ main .work-with div.container .image-container img{
 width:7%;
 margin-left: 3%;
 }
+
+main .over-all{
+  background-image: url('../images/man-climbing-stairs-heaven.png');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-color: black;
+}
+.nums{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.over-all h2{
+  font-size: 2em;
+color: var(--main-color);
+}
+.num{
+  opacity: 0.5;
+  font-weight: bold;
+  color:rgb(0 0 0 / 90%);
+  flex: 1;
+  text-align: center;
+  font-size: 5em;
+  padding: 20px;
+  text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+}
+.text-num{
+  color: var(--sec-color);
+
+}
+.countainer-num{
+  position: relative;
+}
+.plus{
+  opacity: 0.4;
+  font-size: 5em;
+  position: absolute;
+  top:10%;
+  left: -10%;;
+  color:rgb(0 0 0 / 90%);
+  text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+}
+
+
 main .contact{
   background-image: url('../images/glaxy@2x.png');
   background-size: cover;
@@ -468,6 +520,7 @@ main .contact{
   background-color: black;
 
 }
+
 /*  End Main Page */
 
 /*  Start services Page */
@@ -626,7 +679,7 @@ article{
 .circle{
   padding:35%;
   position: relative;
-  border: 15px solid var(--main-color);
+  border: 30px solid var(--main-color);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -635,9 +688,9 @@ article{
 }
 img.header-image {
   position: absolute;
-  left: -50%;
-  bottom: -10%;
-  width: 180%;
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
 }
 .some-of-our-project,
 .work-process,
@@ -696,7 +749,8 @@ margin-bottom: 3%;
 text-align: center;
 }
 .be-with-us div.container a{
-  font-size: 1.3em;
+  font-size: 1em;
+  font-weight: bold;
   text-decoration: none;
   color: white;
   border: 2.5px solid var(--main-color);
@@ -715,6 +769,53 @@ text-align: center;
   left: 0;
   bottom:0;
   z-index: 1;
+}
+.mySlides {
+  display: none;
+}
+.slideshow-container{
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slides{
+
+  display: flex;
+}
+.year-container{
+  display: block;
+  width: 40%;
+  text-shadow: 1px 1px 7px white;
+
+}
+.ourStory{
+  width: 100%;
+  display: block;
+  font-size: 2em;
+
+}
+.story{
+  width: 60%;
+  font-size: 1em;
+}
+.year{
+  font-size: 5em;
+  font-weight: bold;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }
 /*  End services Page */
 /*  Start Work Page */
@@ -895,7 +996,7 @@ width: 100%;
 /*  End People Page */
 /*  start About Page */
 .about-header{
-  background-image: url('../images/chess.png');
+  background-image: url('../images/chees.png');
   background-color: black;
   background-position: center;
   background-size: cover;
@@ -905,8 +1006,8 @@ width: 100%;
 }
 
 .about-header div.container {
+  margin-top: 42.5%;
   height: auto;
-  margin-bottom: 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -914,8 +1015,10 @@ width: 100%;
 }
 .about-header div.container h1 {
   color: var(--sec-color);
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   font-size: 2.2em;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .about-header div.container h2 {
@@ -930,7 +1033,7 @@ width: 100%;
 
 }
 .about-main div.container {
-  height: 130vh;
+  height: 170vh;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -939,10 +1042,19 @@ width: 100%;
   text-align: center;
 
 }
+.about-main div.container .about-part-one p{
+  text-align: center;
+}
+.about-main div.container .about-part-one h3{
+  text-align: center;
+  margin-top: 1%;
+  color: var(--main-color);
+}
 .about-main div.container .about-part-two{
   display: flex;
   justify-content: space-between;
-  height: 27%;
+  
+  height:25%;
   margin-bottom: 3%;
   padding: 3%;
 }
@@ -952,6 +1064,27 @@ width: 100%;
   align-items: flex-start;
   width: 49%;
 }
+.about-main div.container .about-part-two .mission ul{
+  align-self: center;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about-main div.container .about-part-two .mission ul li{
+  display: flex;
+  width:25%;
+  /* margin-right: 5%; */
+
+}
+.about-main div.container .about-part-two .mission ul li::before{
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color:var(--main-color); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  margin-right: 0.5em; /* Also needed for space (tweak if needed) */
+}
+
 .about-main div.container .about-part-two .mission h3{
   color: var(--main-color);
   margin-bottom: 3%;
@@ -974,11 +1107,12 @@ width: 80%;
   height: 12.5%;
   position: absolute;
   left: 0;
-  top: 35%;
+  top: 40%;
   z-index: -2;
 }
 .about-main div.container .about-part-four{
-  height:17%;
+  margin-top: 3%;
+  height:15%;
 }
 .about-main div.container .about-part-four .unique{
 display: flex;
@@ -1264,6 +1398,10 @@ margin-left: 5%;
   color: #fff;
   margin-left: 5%;
   border-left:3px solid var(--main-color);
+}
+.data a{
+  /* text-decoration: none; */
+  color: #d13536;
 }
 .form-talk{
   height: 100%;
@@ -1704,6 +1842,7 @@ main .contact-page .container .form-talk .box{
   height: auto;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   z-index: 3;
 }
 .about-main div.container .about-part-three {
@@ -1726,7 +1865,9 @@ main .contact-page .container .form-talk .box{
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-bottom: 5%;
 }
+
 .about-main div.container .about-part-four{
   display: flex;
   flex-direction: column;
