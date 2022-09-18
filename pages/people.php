@@ -20,7 +20,29 @@
     </section>
     <section class="promida-people">
         <div class="container">
-    
+        <?php
+            $api_url = 'https://promida-strapi.herokuapp.com/api/heroes?populate=*';
+            $hero_data=json_decode(file_get_contents($api_url),true);
+                for ($x = 0; $x <count($hero_data["data"]); $x++) {
+                    $hero_title=$hero_data["data"][$x]["attributes"]["title"];
+                    $hero_name=$hero_data["data"][$x]["attributes"]["name"];
+                    $hero_img=$hero_data["data"][$x]["attributes"]["photo"]["data"]["attributes"]["url"];
+                        echo "<div class='hero-container'>
+                            <img class='image-hero' src='".$hero_img."'/>
+                            <div class='hero-info'>
+                                <p class='hero-first-paragraph'>".$hero_name."</p>
+                                <p class='hero-sec-paragraph'>".$hero_title."</p>
+                            </div>
+                    </div>";  
+                    }
+        ?>
+        </div>
+        <div class="be-with-us">
+        <div class="container">
+                <h2>Want To Join Our Team ?</h2>
+                <a class="touch" href="contact.php">Apply Now</a>
+            </div>
+            <img class="layer"src="../images/layer-12@2x.png" alt="layer">
         </div>
     </section>
 </main>

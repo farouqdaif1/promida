@@ -15,6 +15,7 @@
         </div>
         <img class="girl" src="../images/portrait-young-woman-who-is-posing-covered-with-black-paint@2x.png" alt="girl">
     </div>
+    </section>
     <section class="parent-work">
     <div  id="projects-small">
             <div class="all-projects-small">
@@ -31,7 +32,6 @@
         <div class="container projects  ">
         <?php include "subcode/projects.php"?>
         </div>
-    </section>
     </section>
 </main>
 <?php include 'subcode/footer.php'?>

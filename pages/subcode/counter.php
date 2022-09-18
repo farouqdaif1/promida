@@ -4,7 +4,7 @@ let section =document.querySelector(".over-all");
 let started =false;
 
 window.onscroll=function(){
-    if(window.scrollY >= section.offsetTop){
+    if(window.scrollY >= section.offsetTop ){
         if(!started){
             nums.forEach((num)=>startCount(num));
         }

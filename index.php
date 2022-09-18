@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
+    <div id="preloader">
+        <img src="images/preloader.png" alt="preloader">
+    </div>
     <div class="parent">
         <!-- start header -->
         <header>
@@ -117,8 +120,13 @@
             <!-- END SERVICES -->
             <!-- start WORK -->
             <section class="work">
-            <h1>work</h1>
-
+                <div class="container">
+                <?php include 'pages/subcode/projects.php'?>
+                </div>
+                <div class="grid-container">
+                    <h2>Our</br>Latest Work</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                </div>
             </section>
             <!-- END WORK -->
             <!-- START WORK WITH -->
@@ -131,22 +139,22 @@
                     <h2>Trusted by</h2>
                     <div class="nums">
                         <div class="countainer-num">
-                        <span class="plus">+</span>
+                        <span class="plus">&plus;</span>
                             <div class="num" data-goal="50">0</div>
                             <div class="text-num">More than  50 clintes </br>All over Delta Region</div>
                         </div>
                         <div class="countainer-num">
-                        <span class="plus">+</span>
+                        <span class="plus">&plus;</span>
                             <div class="num" data-goal="100">0</div>
                             <div class="text-num">More than  </br>100 sucsseful campaigns</div>
                         </div>
                         <div class="countainer-num">
-                            <span class="plus">+</span>
+                            <span class="plus">&plus;</span>
                             <div class="num" data-goal="30">0</div>
                             <div class="text-num">More than </byr> 30 case studies and </br>media buying plane solution</div>
                         </div>
                         <div class="countainer-num">
-                            <span class="plus">+</span>
+                            <span class="plus">&plus;</span>
                             <div class="num" data-goal="45">0</div>
                             <div class="text-num">More than 45 media </br>Production campaingns</div>
                         </div>
@@ -163,7 +171,7 @@
                         <p>Let’s discuss how to bring it to life.</p>
                         <a class="touch" href="pages/contact.php">Contact Us</a>
                     </div>
-                    <img class="layer"src="images/layer-12@2x.png" alt="layer">
+                    <!-- <img class="layer"src="images/layer-12@2x.png" alt="layer"> -->
                 </div>
             </section>
             <!-- END CONTACT -->
@@ -190,7 +198,7 @@
         <!-- start footer -->
 
     </div>
-    
+    <?php include 'pages/subcode/counter.php'?>
     <script >
         const menu = document.querySelector('.toggle-menu');
         const button= document.querySelector('.close-btn')
@@ -205,6 +213,11 @@
         button.addEventListener('click', showMenu);
     </script>
    <?php include 'pages/subcode/slider.php'?>
-   <?php include 'pages/subcode/counter.php'?>
+   <script>
+    let loader=document.getElementById("preloader");
+    window.addEventListener('load',function(){
+        loader.style.display="none"
+    })
+   </script>
 </body>
 </html>

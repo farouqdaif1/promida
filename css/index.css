@@ -35,6 +35,21 @@ body{
 .parent{
   position: relative;
 }
+#preloader{
+  background-color: black;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#preloader img{ width: 25%; animation: mymove 1s infinite; -webkit-animation: mymove 1s infinite;
+}
+@keyframes mymove {
+ 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg); -o-transform: rotate(360deg); }
+}
 .container{
   padding-left:15px;
   padding-right: 15px;
@@ -131,6 +146,7 @@ border-bottom: 1.7px solid var(--main-color);
 text-shadow: 1px 1px 7px  white;
 }
 header .container .touch{
+  font-weight: bold;
     text-decoration: none;
     color: white;
     border: 2px solid var(--main-color);
@@ -407,9 +423,51 @@ main .services div.container .all-services .card i{
   }
 main .work{
   background-color:black;
+  position: relative;
 
 }
+main .work .container{
+height: 60vh;
+display :flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+flex-wrap: wrap;
+overflow: hidden;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+.grid-container {
+  padding-left: 10%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to left, rgba(0,0,0,0), rgb(0, 0, 0,1));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.grid-container h2{
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-size: 3em;
+  color:var(--main-color);
+  margin-bottom: 2.5%;
 
+}
+.grid-container p{
+  width: 30%;
+  color:var(--sec-color);
+}
+
+main .work .container .project-container{
+  width:30%;
+  height: 46%;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
 main .work-with{
   background-color:black;
   background-size: cover;
@@ -437,6 +495,7 @@ main .work-with div.container {
 
 }
 .story-container{
+  margin-top: 5%;
   width: 100%;
   height: 35%;
 }
@@ -517,7 +576,6 @@ main .contact{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: black;
 
 }
 
@@ -698,8 +756,6 @@ img.header-image {
   height: 100%;
   width: 100%;
   display: flex;
-  background-color: black;
-  background-image: url('../images/glaxy@2x.png');
   background-size:cover;
   background-position: center;
   position: relative;
@@ -784,22 +840,28 @@ text-align: center;
 }
 .year-container{
   display: block;
-  width: 40%;
+  width:50%;
   text-shadow: 1px 1px 7px white;
+  position: relative;
 
 }
 .ourStory{
+  position: absolute;
+  top:-35%;
+  left: -22%;
   width: 100%;
   display: block;
-  font-size: 2em;
+  font-size: 2.3em;
+  font-weight: bold;
 
 }
 .story{
-  width: 60%;
+  width: 50%;
   font-size: 1em;
 }
 .year{
-  font-size: 5em;
+  letter-spacing:0.2em;
+  font-size: 7.5em;
   font-weight: bold;
 }
 /* Fading animation */
@@ -820,6 +882,7 @@ text-align: center;
 /*  End services Page */
 /*  Start Work Page */
 .promida-work-section { 
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -851,8 +914,8 @@ width: 60%;
 }
 .girl{
   position: absolute;
-  height: 40%;
-  top: -10%;
+  height: 100%;
+  top: 0%;
   right:0;
 }
 .parent-work {
@@ -879,7 +942,7 @@ width: 60%;
   flex-wrap: wrap;
   margin-bottom: 0.4%;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 0.9em;
 }
 .all-projects-small span{
   padding: 1%;
@@ -901,11 +964,9 @@ width: 60%;
   justify-content: left;
   margin-top: 2.5%;
   margin-bottom: 20%;
-  overflow-y: auto;
-  overflow-x: hidden;
 
 }
-.projects::-webkit-scrollbar {
+/* .projects::-webkit-scrollbar {
   width: 10px;
   background-color: var(--sec-color);
 }
@@ -915,7 +976,7 @@ width: 60%;
 }
 .projects::-webkit-scrollbar-track-piece {
   margin: 15%;
-}
+} */
 
 .project-container{
   margin-left: 2%;
@@ -992,7 +1053,66 @@ width: 100%;
   background-image: url('../images/montain.png');
   background-size:cover;
   background-position: center;
+  display: flex;
+  flex-direction: column;
+
 }
+.promida-people .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.hero-container {
+  width: 23%;
+  margin-right: 2%;
+  position: relative;
+}
+.hero-container:hover .hero-info{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+}
+.image-hero{
+  width: 100%;
+}
+.hero-info{
+display: none;
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+color: var(--sec-color);
+background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgb(0, 0, 0,1));
+padding-bottom: 5%;
+
+}
+.hero-first-paragraph{
+  text-shadow: 1px 1px 7px white;
+  font-weight: bold;
+  font-size: 1.7em;
+  margin-bottom: 1%;
+
+}
+.hero-sec-paragraph{
+  text-shadow: 1px 1px 7px white;
+  font-size: 1em;
+}
+.promida-people .be-with-us .container{
+  margin-top: 10%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:20%;
+}
+.promida-people .be-with-us div.container h2{
+  font-size: 2.3em;
+}
+
 /*  End People Page */
 /*  start About Page */
 .about-header{
@@ -1389,20 +1509,47 @@ main .contact-page .container{
   text-shadow: 1px 1px 7px white;
   margin-bottom: 5%;
   }
-.tack-with-us p{
+
+.tack-with-us .des{
 color: var(--sec-color);
 margin-bottom: 7%;
 margin-left: 5%;
+}
+.form-links{
+  font-size: 1.3em;
+  color: #9fa6ae;
+  font-weight: bold;
+  cursor: pointer;
+}
+.form-links P{
+  margin-bottom: 7%;
+margin-left: 5%;
+}
+.show-two{
+  color: var(--main-color);
+  border-left: 5px solid var(--main-color) ;
+  padding-left: 3%;
+}
+.inquiries{
+  text-decoration: none;
+  color:#9fa6ae;
+   font-weight: bold;
+
 }
 .data {
   color: #fff;
   margin-left: 5%;
   border-left:3px solid var(--main-color);
 }
+.data P{
+  margin-bottom: 7%;
+  margin-left: 5%;
+}
 .data a{
   /* text-decoration: none; */
   color: #d13536;
 }
+
 .form-talk{
   height: 100%;
   width:50%;
@@ -1412,6 +1559,7 @@ margin-left: 5%;
   justify-content: space-between;
   color: var(--sec-color);
 }
+
 .form-talk .box1 {
   width: 100%;
   display: flex;
@@ -1461,6 +1609,10 @@ textarea{
   -o-border-radius: 15px 15px;
   cursor: pointer;
 }
+.show{
+  display: none;
+}
+
 /*  End Contact Page */
 
 /* Start Footer */
@@ -1634,6 +1786,28 @@ main .services div.container .prag-services{
 text-align: left;
 }
 
+main .over-all{
+  background-image: none;
+}
+main .over-all .container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .over-all .container .nums{
+  width: 100%;
+display: flex;
+flex-direction: column;
+}
+.plus {
+  left: 15%;
+}
+.text-num{
+text-align: center;
+}
 /*  End Main Page */
 
 /*  Start services Page */
@@ -1738,10 +1912,8 @@ main .services div.container .all-services-small .card-small{
   width: 100%;
   height: 17%;
   position: relative;
-  /* padding: 5%; */
   display: block;
-  /* justify-content: center;
-  align-items: center; */
+
   
 }
 .project-container a img {
@@ -1853,6 +2025,14 @@ main .contact-page .container .form-talk .box{
   margin-left:0;
   padding: 3%;
 }
+.about-main div.container .about-part-one h3 {
+  margin-top: 10%;
+}
+.about-main div.container .about-part-two .mission ul{
+  flex-direction: column;
+  align-self: flex-start;
+
+}
 .about-main div.container .about-part-three img{
   width: 100%;
   opacity: 0.5;
@@ -1893,7 +2073,7 @@ main .contact-page .container .form-talk .box{
   margin-left:20% ;
 }
 main .work-with div.container .image-container img {
-  width: 17%;
+  width: 20%;
   margin-left: 3%;
 }
 main .work-with .work-with-container{
@@ -1907,6 +2087,34 @@ main .work-with div.container h2{
 main .work-with div.container h3{
   text-align: center;
     font-size: 1.2em;
+}
+.slides{
+  display: flex;
+  flex-direction: column;
+}
+.slideshow-container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.year{
+  font-size: 5em;
+}
+.story{
+width:100%;
+text-align: center;
+}
+.year-container{
+  width:100%;
+  display:flex;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+}
+.ourStory{
+  width: 100%;
+  position: initial;
 }
 /* End  About Page */
 /* Start Footer */
