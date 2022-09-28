@@ -10,74 +10,48 @@
             <div class="container">
                 <div class="heading">
                         <h1>A Frequently Asked Questions</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facerenecessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum aperiam.Perspiciatis, porro!</p>
+                        <p>Check Out Our FAQ to Know How we Do it Amazingly! <br> Still If you Needed to know More <br>Get In Touch With Us. </p>
                 </div>
                 <section class="faq-container">
                         <div class="faq">
                             <!-- faq question -->
-                            <p class="faq-page">What is an FAQ Page?</p>
+                            <p class="faq-page">Does my business really need digital marketing?</p>
                             <!-- faq answer -->
                             <div class="faq-body">
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
-                                    necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
-                                    aperiam.
-                                    Perspiciatis, porro!</p>
+                                <p>Any Business Needs Digital Marketing or At least The Common Service “ Social Media Marketing “ as It is Vital to Build a Solid Relationship with your Customer. </p>
                             </div>
                         </div>
                         <div class="faq">
                             <!-- faq question -->
-                            <p class="faq-page">Why do you need an FAQ page?</p>
+                            <p class="faq-page">Do you have a portfolio or samples of your past campaigns or client work?</p>
                             <!-- faq answer -->
                             <div class="faq-body">
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
-                                    necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
-                                    aperiam.
-                                    Perspiciatis, porro!</p>
+                                <p>You Can Check Our Portfolio on Our Behance or our section on our website from here .</p>
                             </div>
                         </div>
                         <div class="faq">
                             <!-- faq question -->
-                            <p class="faq-page">Does it improves the user experience of a website?</p>
+                            <p class="faq-page">How Do You Work ?</p>
                                             <!-- faq answer -->
                             <div class="faq-body">
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
-                                                    necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
-                                                    aperiam.
-                                                    Perspiciatis, porro!</p>
+                                <p>We Assigns to you one Key-Person From the team & Executing Precise Marketing Plan to your Business .</p>
                             </div>
                         </div>
                         <div class="faq">
                             <!-- faq question -->
-                            <p class="faq-page">Does it improves the user experience of a website?</p>
+                            <p class="faq-page">What Packages Do you Provide ?</p>
                                             <!-- faq answer -->
                             <div class="faq-body">
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
-                                                    necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
-                                                    aperiam.
-                                                    Perspiciatis, porro!</p>
+                                <p>Typically we don't provide packages for our campaigns, instead our services are fully customizable and flexible to meet our customers' need and avoid unwanted service.</p>
                                 </div>
                         </div>
                         <div class="faq">
                             <!-- faq question -->
-                            <p class="faq-page">Does it improves the user experience of a website?</p>
+                            <p class="faq-page">Why Us ?</p>
                                 <!-- faq answer -->
                                 <div class="faq-body">
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
-                                                    necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
-                                                    aperiam.
-                                                    Perspiciatis, porro!</p>
+                                    <p>Quality  Specialists in Variant Fields Customer Care .</p>
                             </div>
-                        </div>
-                        <div class="faq">
-                            <!-- faq question -->
-                            <p class="faq-page">Does it improves the user experience of a website?</p>
-                                            <!-- faq answer -->
-                            <div class="faq-body">
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
-                                                    necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
-                                                    aperiam.
-                                                    Perspiciatis, porro!</p>
-                                            </div>
                         </div>
                 </section>
             </div>

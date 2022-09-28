@@ -7,15 +7,65 @@
             $project_description=$project_data["data"][$x]["attributes"]["Descraption"];
             $project_link=$project_data["data"][$x]["attributes"]["Link"];
             $project_img=$project_data["data"][$x]["attributes"]["Cover"]["data"]["attributes"]["url"];
-                echo "<div class='project-container ".$project_type."'>
-                <a href='".$project_link."'>
-                    <img class='image-project' src='".$project_img."'/>
-                    <div class='info'>
-                        <p class='first-paragraph'>".$project_name."</p>
-                        <p class='sec-paragraph'>".$project_type."</p>
-                        <p class='third-paragraph'>".$project_description."</p>
+            if($project_type==" Video Production"){
+                echo
+                "<div class='project-container ".$project_type."'>
+                       <img class='image-project' src='".$project_img."'/>
+                       <button class='myBtn'>Open Project</button>
+                   </div>
+                   <div class='modal'>
+                       <!-- Modal content -->
+                       <div class='modal-content'>
+                       <span class='close'>&times;</span>
+                       <div class='right-modal-content'>
+                           <div class='title-modal-content'>
+                               <div>
+                                   <h2>".$project_name."</h2>
+                               </div>
+                               <p>".$project_type."</p>
+                           </div>
+                           <div class='image-modal-content'>
+                                                                <iframe width='100%' height='315'
+                                        src='https://www.youtube.com/embed/tgbNymZ7vqY'>
+                                        </iframe>
+                           </div>
+                       </div>
+                       <div class='left-modal-content'>
+                           <p class='modal-content-description'>".$project_description."</p>
+                           <a class='modal-content-link'  href=".$project_link." target='_blank'>Full project</a>
+                       </div>
+                       </div>
+                   </div>
+                   ";  
+            }else{
+                echo
+                 "<div class='project-container ".$project_type."'>
+                        <img class='image-project' src='".$project_img."'/>
+                        <button class='myBtn'>Open Project</button>
                     </div>
-                </a>
-            </div>";  
+                    <div class='modal'>
+                        <!-- Modal content -->
+                        <div class='modal-content'>
+                        <span class='close'>&times;</span>
+                        <div class='right-modal-content'>
+                            <div class='title-modal-content'>
+                                <div>
+                                    <h2>".$project_name."</h2>
+                                </div>
+                                <p>".$project_type."</p>
+                            </div>
+                            <div class='image-modal-content'>
+                            <img class='image-modal' src='".$project_img."'/>
+                            </div>
+                        </div>
+                        <div class='left-modal-content'>
+                            <p class='modal-content-description'>".$project_description."</p>
+                            <a class='modal-content-link'  href=".$project_link." target='_blank'>Full project</a>
+                        </div>
+                        </div>
+                    </div>
+                    ";  
+            }
+                
             }
 ?>

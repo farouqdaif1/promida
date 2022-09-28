@@ -15,7 +15,7 @@
                     <div class='reviewer-name'>
                         <h3>".$reviewer_name."</h3>
                         <p class='reviewer-title'>".$reviewer_title."</p>
-                        <span class='current-state'>Current</br>clint</span>
+                        <span class='current-state'>Current </br class='break'>clint</span>
                     </div>
                     <div class='review-description'>
                         <p>".$reviewer_review."</p>

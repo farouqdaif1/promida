@@ -65,7 +65,7 @@
                                 </div>
                                 <div class="circle-container">
                                     <div class="circle">
-                                        <img class="header-image"src="../images/BRANDING.png" alt="computer-image">
+                                        <img  id="branding-image" class="header-image"src="../images/BRANDING.png" alt="computer-image">
                                     </div>
                                 </div>
                         </div>
@@ -101,7 +101,7 @@
 
                                 <div class="circle-container">
                                     <div class="circle">
-                                        <img class="header-image"src="../images/website.png" alt="computer-image">
+                                        <img id="web-image" class="header-image"src="../images/website.png" alt="computer-image">
                                     </div>
                                 </div>
                         </div>
@@ -144,7 +144,7 @@
 
                                 <div class="circle-container">
                                     <div class="circle">
-                                        <img class="header-image"src="../images/socialmedia.png" alt="computer-image">
+                                        <img id="social-image" class="header-image"src="../images/socialmedia.png" alt="computer-image">
                                     </div>
                                 </div>
                         </div>
@@ -239,7 +239,7 @@
 
                                 <div class="circle-container">
                                     <div class="circle">
-                                        <img class="header-image"src="../images/media-buying.png" alt="computer-image">
+                                        <img id="plane-image" class="header-image"src="../images/media-buying.png" alt="computer-image">
                                     </div>
                                 </div>
                         </div>
@@ -282,7 +282,7 @@
                                         And Showcase your services or products in the Best way.</p>                            </div>
                                 <div class="circle-container">
                                     <div class="circle">
-                                        <img class="header-image"src="../images/startegy.png" alt="computer-image">
+                                        <img  id="strategies-image"  class="header-image"src="../images/startegy.png" alt="computer-image">
                                     </div>
                                 </div>
                         </div>

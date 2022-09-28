@@ -10,7 +10,9 @@
         <div class="promida-work">
             <div class="work-header">
                 <h1>Our Amazing projects</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                <p>Every project is a piece in Our hearts <br>
+Check out Every Category , Every style of Business Crafted perfectly.
+</p>
             </div>
         </div>
         <img class="girl" src="../images/portrait-young-woman-who-is-posing-covered-with-black-paint@2x.png" alt="girl">
@@ -18,7 +20,7 @@
     </section>
     <section class="parent-work">
     <div  id="projects-small">
-            <div class="all-projects-small">
+        <div class="all-projects-small">
                 Filter by 
                <span class="All clicked filter">All</span>
             /  <span class="Branding filter">Branding</span> 
@@ -85,6 +87,35 @@
             }
         })
     });
+</script>
+<script>
+// Get the modal
+let projectsX =document.getElementsByClassName("project-container");
+for(let i=0; i < projectsX.length; i++){
+let modal = document.getElementsByClassName("modal")[i];
+
+// Get the button that opens the modal
+let btn = document.getElementsByClassName("myBtn")[i];
+
+// Get the <span> element that closes the modal
+let span = document.getElementsByClassName("close")[i];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+}
 </script>
 </body>
 </html>

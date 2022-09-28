@@ -171,7 +171,7 @@
                         <p>Let’s discuss how to bring it to life.</p>
                         <a class="touch" href="pages/contact.php">Contact Us</a>
                     </div>
-                    <!-- <img class="layer"src="images/layer-12@2x.png" alt="layer"> -->
+                    <img class="layer-index"src="images/layer-12@2x.png" alt="layer">
                 </div>
             </section>
             <!-- END CONTACT -->

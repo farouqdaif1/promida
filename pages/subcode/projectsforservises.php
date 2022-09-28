@@ -12,13 +12,13 @@
                 echo "<div class='project-container ".$project_type."'>
                 <a href='".$project_link."'>
                     <img class='image-project' src='".$project_img."'/>
-                    <div class='info'>
-                        <p class='first-paragraph'>".$project_name."</p>
-                        <p class='sec-paragraph'>".$project_type."</p>
-                        <p class='third-paragraph'>".$project_description."</p>
-                    </div>
                 </a>
             </div>";  
             }
             }
 ?>
+           <!-- <div class='info'>
+                        <p class='first-paragraph'>".$project_name."</p>
+                        <p class='sec-paragraph'>".$project_type."</p>
+                        <p class='third-paragraph'>".$project_description."</p>
+                    </div> -->

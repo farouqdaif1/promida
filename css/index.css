@@ -67,6 +67,7 @@ body{
   -ms-transition:0.3s; 
   -o-transition:0.3s;
 }
+
 section{
 min-height: 100vh;
 display: flex;
@@ -436,15 +437,16 @@ flex-wrap: wrap;
 overflow: hidden;
 margin-top: 5%;
 margin-bottom: 5%;
+background-image: linear-gradient(to right, rgba(0,0,0,1), rgb(0, 0, 0));
 }
 .grid-container {
   padding-left: 10%;
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
+  left:0;
   right: 0;
-  background-image: linear-gradient(to left, rgba(0,0,0,0), rgb(0, 0, 0,1));
+  background-image: linear-gradient(to right, rgba(0,0,0,1), rgb(0, 0, 0,0));
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -463,10 +465,13 @@ margin-bottom: 5%;
 }
 
 main .work .container .project-container{
-  width:30%;
-  height: 46%;
-  margin-left: 10px;
-  margin-bottom: 25px;
+  width:24%;
+  height: 50%;
+  margin-left:1%;
+  margin-bottom: 1%;
+}
+main .work .container .project-container img {
+  object-fit: cover;
 }
 main .work-with{
   background-color:black;
@@ -750,6 +755,32 @@ img.header-image {
   bottom: 0%;
   width: 100%;
 }
+#branding-image{
+  width: 125%;
+  left: -15%;
+}
+#web-image{
+  position: absolute;
+  left: -50%;
+  bottom: -10%;
+  width: 185%;
+}
+#social-image{
+  left: -10%;
+  bottom: -10%;
+  width: 120%;
+}
+#plane-image{
+  left: -6%;
+  bottom: 10%;
+  width: 115%;
+}
+#strategies-image{
+  left: -10%;
+  bottom: 10%;
+  width: 120%;
+  
+}
 .some-of-our-project,
 .work-process,
 .be-with-us{
@@ -823,7 +854,19 @@ text-align: center;
    width: 100%;
   position: absolute;
   left: 0;
-  bottom:0;
+  bottom:2%;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.layer-index{
+  height:110%; 
+   width: 100%;
+  position: absolute;
+  left: 0;
+  bottom:2%;
+  top: 0;
+  right: 0;
   z-index: 1;
 }
 .mySlides {
@@ -956,46 +999,52 @@ width: 60%;
   display: block;
 }
 .parent-work div.container{
-  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
   color: var(--sec-color);
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   margin-top: 2.5%;
   margin-bottom: 20%;
 
 }
-/* .projects::-webkit-scrollbar {
-  width: 10px;
-  background-color: var(--sec-color);
-}
-.projects::-webkit-scrollbar-thumb {
-  background-color: var(--main-color);
-  width: 2em;
-}
-.projects::-webkit-scrollbar-track-piece {
-  margin: 15%;
-} */
 
 .project-container{
   margin-left: 2%;
-  margin-bottom: 3%;
-  max-width: 60%;
-  height: 30%;
+  margin-bottom: 2%;
+  width:30%;
+  height: auto;
   position: relative;
-
 }
-.project-container a:hover .info{
-  display: flex;
- 
-  
+.project-container:hover .myBtn{
+  display: block;
 }
-.project-container a{
-  text-decoration: none;
+.myBtn{
+  position: absolute;
+  bottom:0;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  outline: none;
+  background-color:rgba(0, 0, 0, 0.37);
   color: var(--sec-color);
+  border: none;
+  display:none;
+  padding: 12px;
+  font-size: 2em;
+  height: 100%;
 }
-.project-container a img{
+/* .myBtn:hover{
+  border: 1px solid var(--main-color);
+    background-color: #fff5e1;
+    color:var(--main-color);
+    transition: 0.5s;
+} */
+.project-container img{
+  object-fit: contain;
   width: 100%;
   height: 100%;
   border-radius:15px 15px ;
@@ -1005,24 +1054,119 @@ width: 60%;
   -o-border-radius:15px 15px ;
 
 }
-.image-project{
-  height: 50%;
-}
-.info{
-  width: auto;;
-  height: 100%;
-  bottom: 0;
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 5; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
-  background-color: #14141467;
-  padding: 5%;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
 }
 
+/* Modal Content */
+.modal-content {
+  border-radius:20px 20px ;
+  z-index: 5;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 90%;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  -webkit-border-radius:20px 20px ;
+  -moz-border-radius:20px 20px ;
+  -ms-border-radius:20px 20px ;
+  -o-border-radius:20px 20px ;
+}
+.right-modal-content{
+  width: 50%;
+  height: 100%;
+}
+.left-modal-content{
+  padding: 20px;
+  width:50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-modal-content{
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title-modal-content h2{
+  padding: 1%;
+  max-width: 60%;
+  display: inline-block;
+  color: var(--sec-color);
+  background-color: black;
+  border-radius:15px ;
+  -webkit-border-radius:15px ;
+  -moz-border-radius:15px ;
+  -ms-border-radius:15px ;
+  -o-border-radius:15px ;
+  margin-bottom: 1%;
+}
+.title-modal-content p{
+  margin-bottom: 1%;
+  padding: 3%;
+  color: #888;
+
+}
+.image-modal-content{
+  height: 80%;
+}
+.image-modal{
+  width: 100%;
+  height: 100%;
+  object-fit: contain ;
+
+}
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  color: #aaaaaa;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-content-description{
+  width: 100%;
+  height: 90%;
+}
+.modal-content-link{
+  background-color: var(--main-color);
+  text-decoration: none;
+  color: var(--sec-color);
+  padding: 5px 20px 5px 20px;
+  border-radius: 15px 15px;
+  -webkit-border-radius: 15px 15px;
+  -moz-border-radius: 15px 15px;
+  -ms-border-radius: 15px 15px;
+  -o-border-radius: 15px 15px;
+}
 /*  End Work Page */
 /*  Start People Page */
 .promida-hero{
@@ -1068,6 +1212,7 @@ width: 100%;
   width: 23%;
   margin-right: 2%;
   position: relative;
+  margin-bottom:2%;
 }
 .hero-container:hover .hero-info{
 display: flex;
@@ -1253,7 +1398,7 @@ position: relative;
   font-size: 2em;
 }
 .about-main div.container .about-part-four .unique img{
- height:185%; 
+ height:180%; 
  position: absolute;
  right:10%;
  bottom: 0;
@@ -1265,7 +1410,7 @@ position: relative;
   
   }
 .about-us-page .be-with-us div.container{
-    height: 70vh;
+    height: 80vh;
     justify-content: flex-start;
     margin-bottom: 0;
   }
@@ -1285,7 +1430,7 @@ position: relative;
 }
 .review-page div.container{
 margin-top: 10%;
-height: 60%;
+min-height: 100vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -1295,10 +1440,21 @@ align-items: center;
 height: auto;
   background-image: none;
   background-color: transparent;
-  margin-bottom:3%;
+}
+.review-page .be-with-us .container{
+  min-height: auto;
+  margin-top: 10%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15%;
+  margin-top: 0%;
 
 }
 .reviews-container{
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1320,7 +1476,7 @@ height: auto;
 }
 .review{
   width: 100%;
-  height: 30%;
+  height: 35vh;
   color: var(--sec-color);
   margin-bottom: 5%;
   display:flex;
@@ -1328,11 +1484,11 @@ height: auto;
   align-items: center;
 }
 .reviewer-info{
-  width: 70%;
+  width:75%;
   letter-spacing: 1.5px;
   display: grid;
-  grid-template-columns: 17.5% 27.5% 50%;
-  column-gap: 2.5%;
+  grid-template-columns: 25% 25% 50%; 
+ 
   height: 100%;
 }
 
@@ -1352,16 +1508,14 @@ height: auto;
 .current-state{
   font-size: 0.9em;
   color: #c0b6b6b6;
-  margin-top: auto;
+  margin-top: 5%;
 }
 .review-description{
   font-size: 0.9em;
 }
 .reviewer-image{
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 125px;
+  width: 125px;
   border-color: var(--main-color);
   border-style: solid;
   margin-right: 2.5%;
@@ -1372,6 +1526,7 @@ height: auto;
   -o-border-radius: 50%;
 }
 .reviewer-image img{
+  object-fit: cover;
   width:100%;
   height: 100%;
   border-radius: 50%;
@@ -1380,6 +1535,7 @@ height: auto;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+
 /*  End Review Page */
 /*  Start FQA Page */
 
@@ -1713,7 +1869,7 @@ header div.container nav {
   
 }
 header div.container .mob {
-  z-index: 4; 
+  z-index:10; 
 
   position: fixed; 
   display: flex; 
@@ -1742,6 +1898,11 @@ header .container nav ul {
   align-items: center;
   padding-left: 20px;
   z-index: 10;
+}
+header .links.active ,
+header .links:hover{
+  border-bottom: none;
+  text-shadow: 1px 1px 7px  white;
 }
 header .container nav ul  li{
   width: 80%;
@@ -1848,6 +2009,7 @@ main .services div.container .all-services-small .card-small{
   text-align: left;
 }
 /*  End services Page */
+/*  Start hero Page */
 .promida-hero{
   margin-top: 15%;
   display: flex;
@@ -1866,9 +2028,20 @@ main .services div.container .all-services-small .card-small{
 }
 .hero-header h1{
   width: 100%;
-
   font-size: 3em;
 }
+.promida-people .container{
+flex-direction: column;
+}
+.hero-container{
+  width: 80%;
+}
+.promida-people .be-with-us .container {
+  margin-bottom: 50%;
+
+}
+/*  End hero Page */
+
 /*  Start work Page */
 .parent-work{
   align-items:flex-start ;
@@ -1921,8 +2094,33 @@ main .services div.container .all-services-small .card-small{
   width: 100%;
 
 }
+.modal{
+  padding-top: 10px;
+}
+.modal-content{
+  width: 95%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+}
+.right-modal-content{
+  width: 100%;
+  height: 50%;
+  margin-top: 10%;
 
-
+}
+.left-modal-content{
+  width: 100%;
+  height: 40%;
+}
+.title-modal-content h2{
+  max-width: 100%;
+  padding: 2%;
+}
+.close {
+  
+  font-size: 3.2em;
+}
 /*  End work Page */
 
 /*  Start FQA Page */
@@ -2024,15 +2222,21 @@ main .contact-page .container .form-talk .box{
   width: 100%;
   margin-left:0;
   padding: 3%;
+  align-items: center;
+  text-align: center;
 }
 .about-main div.container .about-part-one h3 {
   margin-top: 10%;
 }
 .about-main div.container .about-part-two .mission ul{
-  flex-direction: column;
-  align-self: flex-start;
+  width:90%;
+  align-self: center;
 
 }
+.about-main div.container .about-part-two .mission ul li{
+  width: 50%;
+}
+
 .about-main div.container .about-part-three img{
   width: 100%;
   opacity: 0.5;
@@ -2047,7 +2251,12 @@ main .contact-page .container .form-talk .box{
   width: 100%;
   margin-bottom: 5%;
 }
-
+.about-main div.container .about-part-two .mission h3{
+  align-self: center;
+}
+.about-main div.container .about-part-two .mission p{
+  text-align: center;
+}
 .about-main div.container .about-part-four{
   display: flex;
   flex-direction: column;
@@ -2064,7 +2273,12 @@ main .contact-page .container .form-talk .box{
 .about-main div.container .about-part-four .unique div{
   height: auto;
   width: 100%;
+  text-align: center;
 }
+.about-main div.container .about-part-four .unique div h3{
+  align-self: center;
+}
+
 .about-main div.container .about-part-four .unique img{
   margin-top: 5%;
   align-self: center;
@@ -2083,10 +2297,23 @@ main .work-with .work-with-container{
 main .work-with div.container h2{
   text-align: center;
   font-size: 2em;
+  margin-bottom: 10%;
 }
 main .work-with div.container h3{
   text-align: center;
     font-size: 1.2em;
+    margin-top: 10%;
+}
+.story-container{
+  margin-top: 13%;
+  width: 100%;
+  height: 35%;
+  flex-direction: column;
+}
+.ourStory{
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
 }
 .slides{
   display: flex;
@@ -2102,8 +2329,10 @@ main .work-with div.container h3{
   font-size: 5em;
 }
 .story{
-width:100%;
+width: 100%;
 text-align: center;
+font-size: 1.1em;
+letter-spacing: 1.5px;
 }
 .year-container{
   width:100%;
@@ -2111,12 +2340,58 @@ text-align: center;
   flex-direction:column ;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5%;
 }
 .ourStory{
   width: 100%;
   position: initial;
 }
+.about-us-page .be-with-us div.container{
+  height: 50vh;
+    justify-content: center;
+    margin-bottom: 30%;
+}
 /* End  About Page */
+/* Start  Review Page */
+.review-page div.container{
+  margin-top: 25%;
+}
+.review-header{
+text-align: center;
+}
+.review{
+  height: 65vh;
+}
+.reviewer-info{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.reviewer-name{
+  align-self: center;
+}
+.reviewer-title{
+  text-align: center;
+}
+.current-state{
+  margin-bottom: 5%;
+  text-align: center;
+}
+.reviewer-image{
+display: flex;
+justify-content: center;
+align-items: center;
+align-self: center;
+margin-bottom: 1%;
+}
+.break{
+  display: none;
+}
+.review-page .be-with-us .container {
+  margin-bottom:40%;
+}
+
+/* End Review Page */
 /* Start Footer */
 
 footer .container{
@@ -2176,3 +2451,18 @@ main .services {
     height: 140vh;
   }
   }
+  @media (min-width:768px) and (max-width:912px) {
+    .about-main div.container .about-part-four .unique img {
+      height: 100%;
+      right: 0;
+    }
+    .year{
+      font-size: 5.5em;
+    }
+    .about-us-page .be-with-us div.container{
+      height: 50vh;
+    }
+    .about-main div.container{
+      height: 120vh;
+    }
+    }
