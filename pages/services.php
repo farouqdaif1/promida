@@ -192,7 +192,7 @@
                             <div class="container">
                                 <div class="article-head">
                                     <h2>Media buying plan</h2>
-                                    <p>Show Off is what Media Production Really Means </p>
+                                    <p>Show Off is what Media Production Really Means. </p>
                                     <ul>
                                         <li>Photo Sessions</li>
                                         <li>Motion Graphic Videos </li>
