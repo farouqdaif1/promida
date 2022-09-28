@@ -804,13 +804,50 @@ img.header-image {
 color: var(--main-color);
 text-align: center;
 font-size: 3em;
+margin-bottom: 3%;
+}
+.show-service .work-process div.container h6{
+  color: var(--main-color);
+  font-size: 1.5em;
+  margin-bottom: 1%;
+  }
+.show-service .work-process div.container ul{
+  width: 65%;
+  align-self: center;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 1.2em;
+  margin-bottom: 5%;
+}
+#community{
+  width: 90%;
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+.show-service .work-process div.container ul li{
+  width: 50%;
+}
+.show-service .work-process div.container ul li::before{
+  content: "\2022";
+  color: var(--main-color);
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 0.5em;
 }
 .show-service .work-process div.container p{
-  text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 5%;
+}
+.social .work-process div.container{
+  min-height: 100vh;
+  height: auto;
 }
 .some-of-our-project  div.container{
   display: flex;
-  
+  flex-wrap: wrap;
 }
 .be-with-us div.container{
   z-index: 2;
@@ -1969,6 +2006,27 @@ flex-direction: column;
 .text-num{
 text-align: center;
 }
+main .work .container{
+
+}
+.grid-container p {
+  width: 90%;
+}
+main .work .container .project-container {
+  width: 32%;
+}
+.over-all h2 {
+  font-size: 3.5em;
+}
+.num{
+  padding: 3%;
+  font-size: 4em;
+}
+main .work{
+  display: flex;
+  align-items: flex-start;
+  min-height: 70vh;
+}
 /*  End Main Page */
 
 /*  Start services Page */
@@ -1995,6 +2053,7 @@ main .services div.container .all-services-small .card-small{
 }
 .be-with-us div.container{
   justify-content: center;
+  margin-bottom: 50%;
 }
 .be-with-us div.container h2{
   font-size: 2.2em;
