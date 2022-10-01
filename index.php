@@ -66,54 +66,54 @@
                     <h2 class="our-services">Our Services</h2>
                     <p class="prag-services">full-service Masterly agency that provides a wide range of services in almost all aspects of marketing and advertising We are  people, relationships and the convergence of vision, focus and teamwork to deliver the best digital strategies and results your brand is looking.</p>
                     <div class="all-services">
-                        <div class="card">
+                        <a href="pages/services.php" class="card">
                             <div class="title">
                             <i class="fa-solid fa-tag"></i>                                
                                 <span>01</span>
                             </div>
                             <h3>Branding & Creating full identity system</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                        </div>
-                        <div class="card">
+                        </a>
+                        <a href="pages/services.php" class="card">
                             <div class="title">
                                 <i class="fa-solid fa-laptop-code"></i>
                                 <span>02</span>
                                 </div>
                                 <h3>website & Mobile Apps creation & development</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                        </div>
-                        <div class="card">
-                        <div class="title">
-                            <i class="fa-solid fa-thumbs-up"></i>
-                            <span>03</span>
-                            </div>
-                            <h3>Social Media Marketing</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                        </div>
-                        <div class="card">
+                        </a>
+                        <a href="pages/services.php"  class="card">
+                            <div class="title">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <span>03</span>
+                                </div>
+                                <h3>Social Media Marketing</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                        </a>
+                        <a href="pages/services.php"  class="card">
                             <div class="title">
                             <i class="fa-solid fa-camera"></i>
                             <span>04</span>
                             </div>
                             <h3>Media production</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                        </div>
-                        <div class="card">
+                        </a>
+                        <a href="pages/services.php" class="card">
                             <div class="title">
                             <i class="fa-solid fa-tv"></i>
                                 <span>05</span>
                                 </div>
                                 <h3>Media buying plane</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                        </div>
-                        <div class="card">
+                        </a>
+                        <a href="pages/services.php" class="card">
                             <div class="title">
                                     <i class="fa-solid fa-chart-pie"></i>                                        
                                     <span>06</span>
                                 </div>
                                 <h3>Creating Strategies</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -172,7 +172,6 @@
                         <a class="touch" href="pages/contact.php">Contact Us</a>
                     </div>
                 </div>
-                <img class="layer-index"src="images/layer-12@2x.png" alt="layer">
             </section>
             <!-- END CONTACT -->
         </main>

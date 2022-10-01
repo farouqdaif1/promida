@@ -353,6 +353,8 @@ main .services div.container .all-services .card {
   position: relative;
   margin-right: 5%;
   margin-bottom: 2%;
+  text-decoration: none;
+
 }
 main .services div.container .all-services .card::before{
   content: "";
