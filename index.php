@@ -172,6 +172,7 @@
                         <a class="touch" href="pages/contact.php">Contact Us</a>
                     </div>
                 </div>
+                <img class="layer-index"src="images/layer-12@2x.png" alt="layer">
             </section>
             <!-- END CONTACT -->
         </main>
