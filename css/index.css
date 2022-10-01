@@ -577,6 +577,7 @@ color: var(--main-color);
 
 
 main .contact{
+  position: relative;
   background-image: url('../images/glaxy@2x.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -783,14 +784,14 @@ img.header-image {
 }
 #web-image{
   position: absolute;
-  left: -50%;
-  bottom: -10%;
-  width: 185%;
+  left: -47%;
+  bottom: -5%;
+  width: 170%;
 }
 #social-image{
-  left: -10%;
-  bottom: -10%;
-  width: 120%;
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
 }
 #plane-image{
   left: -6%;
@@ -813,7 +814,10 @@ img.header-image {
   background-position: center;
   position: relative;
 }
-
+.some-of-our-project{
+  height: auto;
+  min-height: 100vh;
+}
 .show-service .work-process div.container {
   height: 100vh;
   display: flex;
@@ -870,6 +874,16 @@ margin-bottom: 3%;
 .some-of-our-project  div.container{
   display: flex;
   flex-wrap: wrap;
+  min-height: 100vh;
+  height: auto;
+}
+.project-container-services{
+  width: 23%;
+  margin-left:2% ;
+  margin-bottom: 3%;
+}
+.image-project-services{
+  width: 100%;
 }
 .be-with-us div.container{
   z-index: 1;
@@ -919,14 +933,14 @@ text-align: center;
   z-index: 0;
 }
 .layer-index{
-  height:110%; 
+  height:100%; 
    width: 100%;
   position: absolute;
   left: 0;
   bottom:2%;
   top: 0;
   right: 0;
-  z-index: 1;
+  z-index: 0;
 }
 .mySlides {
   display: none;
@@ -2084,8 +2098,27 @@ main .services div.container .all-services-small .card-small{
   margin-bottom: 6.5%;
 
 }
+.show-service .work-process div.container{
+  height: auto;
+  min-height:100vh ;
+}
 .show-service .work-process div.container p{
   text-align: left;
+}
+.show-service .work-process div.container ul {
+width: 100%;
+}
+.show-service .work-process div.container ul li{
+  width: 100%;
+  margin-bottom: 1%;
+
+}
+#community{
+  flex-wrap: wrap;
+}
+#community li{
+  margin-bottom: 10%;
+  flex-wrap: wrap;
 }
 /*  End services Page */
 /*  Start hero Page */
@@ -2467,7 +2500,7 @@ margin-bottom: 1%;
   display: none;
 }
 .review-page .be-with-us .container {
-  margin-bottom:40%;
+  margin-bottom:60%;
 }
 
 /* End Review Page */

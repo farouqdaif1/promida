@@ -9,16 +9,11 @@
             $project_img=$project_data["data"][$x]["attributes"]["Cover"]["data"]["attributes"]["url"];
             $variable = $_GET["var"];
             if($variable===$project_type){
-                echo "<div class='project-container ".$project_type."'>
+                echo "<div class='project-container-services ".$project_type."'>
                 <a href='".$project_link."'>
-                    <img class='image-project' src='".$project_img."'/>
+                    <img class='image-project-services' src='".$project_img."'/>
                 </a>
             </div>";  
             }
             }
 ?>
-           <!-- <div class='info'>
-                        <p class='first-paragraph'>".$project_name."</p>
-                        <p class='sec-paragraph'>".$project_type."</p>
-                        <p class='third-paragraph'>".$project_description."</p>
-                    </div> -->
