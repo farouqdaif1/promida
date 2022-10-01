@@ -903,7 +903,7 @@ margin-bottom: 3%;
   flex-direction: column;  
   align-items: center;
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 .be-with-us div.container h2{
   text-align: center;
@@ -2578,18 +2578,26 @@ main .services {
     height: 140vh;
   }
   }
-  @media (min-width:768px) and (max-width:912px) {
-    .about-main div.container .about-part-four .unique img {
-      height: 100%;
-      right: 0;
+@media (min-width:768px) and (max-width:912px) {
+  .about-main div.container .about-part-four .unique img {
+    height: 100%;
+    right: 0;
+  }
+  .year{
+    font-size: 5.5em;
+  }
+  .about-us-page .be-with-us div.container{
+    height: 50vh;
+  }
+.about-main div.container{
+  height: 120vh;
+  }
+
+
+  }
+  @media (min-width:768px) and (max-width:982px) {
+    .be-with-us div.container{
+      margin-top: 15%;
+      margin-bottom: 30%;
     }
-    .year{
-      font-size: 5.5em;
-    }
-    .about-us-page .be-with-us div.container{
-      height: 50vh;
-    }
-    .about-main div.container{
-      height: 120vh;
-    }
-    }
+  }
