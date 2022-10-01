@@ -881,9 +881,20 @@ margin-bottom: 3%;
   width: 23%;
   margin-left:2% ;
   margin-bottom: 3%;
+
+}
+.project-container-services a{
+  width: 100%;
+  height: 100%;
 }
 .image-project-services{
+  object-fit: contain;
   width: 100%;
+  border-radius: 15px 15px;
+  -webkit-border-radius: 15px 15px;
+  -moz-border-radius: 15px 15px;
+  -ms-border-radius: 15px 15px;
+  -o-border-radius: 15px 15px;
 }
 .be-with-us div.container{
   z-index: 1;
