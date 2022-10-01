@@ -816,7 +816,6 @@ img.header-image {
 }
 .some-of-our-project{
   height: auto;
-  min-height: 100vh;
 }
 .show-service .work-process div.container {
   height: 100vh;
@@ -874,7 +873,6 @@ margin-bottom: 3%;
 .some-of-our-project  div.container{
   display: flex;
   flex-wrap: wrap;
-  min-height: 100vh;
   height: auto;
 }
 .project-container-services{
@@ -896,6 +894,7 @@ margin-bottom: 3%;
   -ms-border-radius: 15px 15px;
   -o-border-radius: 15px 15px;
 }
+
 .be-with-us div.container{
   z-index: 1;
   display: flex;
@@ -2130,6 +2129,9 @@ width: 100%;
 #community li{
   margin-bottom: 10%;
   flex-wrap: wrap;
+}
+.project-container-services{
+ width: 48%; 
 }
 /*  End services Page */
 /*  Start hero Page */
