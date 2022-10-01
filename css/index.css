@@ -872,7 +872,7 @@ margin-bottom: 3%;
   flex-wrap: wrap;
 }
 .be-with-us div.container{
-  z-index: 2;
+  z-index: 1;
   display: flex;
   flex-direction: column;  
   align-items: center;
@@ -916,7 +916,7 @@ text-align: center;
   bottom:2%;
   top: 0;
   right: 0;
-  z-index: 1;
+  z-index: 0;
 }
 .layer-index{
   height:110%; 
@@ -1307,7 +1307,7 @@ padding-bottom: 5%;
 }
 .promida-people .be-with-us .container{
   margin-top: 10%;
-    z-index: 2;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1503,7 +1503,7 @@ height: auto;
 .review-page .be-with-us .container{
   min-height: auto;
   margin-top: 10%;
-  z-index: 2;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1836,7 +1836,7 @@ footer{
   position: absolute;
   bottom:0;
   left: 0;
-  z-index: 4;
+  z-index: 1;
 }
 footer .container{
   display: flex;
@@ -2292,7 +2292,7 @@ main .contact-page .container .form-talk .box{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  z-index: 3;
+  z-index: 1;
 }
 .about-main div.container .about-part-three {
   height: auto;
@@ -2341,7 +2341,7 @@ main .contact-page .container .form-talk .box{
   flex-direction: column;
   height: auto;
   padding: 3%;
-  z-index: 3;
+  z-index: 1;
 } 
 .about-main div.container .about-part-four .unique{
   width: 100%;
