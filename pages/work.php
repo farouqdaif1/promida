@@ -2,6 +2,9 @@
 <html lang="en">
 <?php include 'subcode/head.php'?>
 <body>
+<div id="preloader">
+        <img src="../images/preloader.png" alt="preloader">
+    </div>
 <div class="parent">
 <?php include 'subcode/header.php'?>
 <main>
@@ -11,8 +14,8 @@
             <div class="work-header">
                 <h1>Our Amazing projects</h1>
                 <p>Every project is a piece in Our hearts <br>
-Check out Every Category , Every style of Business Crafted perfectly.
-</p>
+                        Check out Every Category , Every style of Business Crafted perfectly.
+                        </p>
             </div>
         </div>
         <img class="girl" src="../images/portrait-young-woman-who-is-posing-covered-with-black-paint@2x.png" alt="girl">
@@ -90,6 +93,7 @@ Check out Every Category , Every style of Business Crafted perfectly.
 </script>
 <script>
 // Get the modal
+
 let projectsX =document.getElementsByClassName("project-container");
 for(let i=0; i < projectsX.length; i++){
 let modal = document.getElementsByClassName("modal")[i];
@@ -116,6 +120,10 @@ window.onclick = function(event) {
   }
 }
 }
+let loader=document.getElementById("preloader");
+    window.addEventListener('load',function(){
+        loader.style.display="none"
+    })
 </script>
 </body>
 </html>

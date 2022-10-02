@@ -126,7 +126,8 @@
                 </div>
                 <div class="grid-container">
                     <h2>Our</br>Latest Work</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                    <p>Every project is a piece in our hearts
+                        Check out Every category , every style of business crafted perfectly. </p>
                 </div>
             </section>
             <!-- END WORK -->
@@ -245,7 +246,6 @@ slider.addEventListener('mousemove',(e)=>{
     const x=e.pageX-slider.offsetLeft;
     const walk=(x-startX)*1.5;
     slider.scrollLeft= scrollLeft-walk;
-    console.log(walk)
 }) 
 </script>
 </body>

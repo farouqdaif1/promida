@@ -2,6 +2,9 @@
 <html lang="en">
 <?php include 'subcode/head.php'?>
 <body>
+<div id="preloader">
+        <img src="../images/preloader.png" alt="preloader">
+    </div>
 <div class="parent">
 <?php include 'subcode/header.php'?>
 <main>
@@ -49,5 +52,11 @@
 <?php include 'subcode/footer.php'?>
 </div>
 <?php include 'subcode/script.php'?>
+<script>
+        let loader=document.getElementById("preloader");
+    window.addEventListener('load',function(){
+        loader.style.display="none"
+    })
+</script>
 </body>
 </html>
