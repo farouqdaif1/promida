@@ -846,14 +846,14 @@ margin-bottom: 3%;
   margin-bottom: 1%;
   }
 .show-service .work-process div.container ul{
-  width: 65%;
+  width: 100%;
   align-self: center;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   font-size: 1.2em;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 #community{
   width: 90%;
@@ -1975,6 +1975,7 @@ color: var(--main-color);
   main .services div.container .all-services-small {
     width:100% ;
     display: flex;
+
     justify-content: space-between;
     overflow-x: scroll;
     margin-bottom: 0%;
@@ -2032,6 +2033,11 @@ header .links.active ,
 header .links:hover{
   border-bottom: none;
   text-shadow: 1px 1px 7px  white;
+  transition: 0ms;
+  -webkit-transition: 0ms;
+  -moz-transition: 0ms;
+  -ms-transition: 0ms;
+  -o-transition: 0ms;
 }
 header .container nav ul  li{
   width: 80%;
@@ -2141,6 +2147,9 @@ main .services div.container .all-services-small .card-small{
 .circle-container{
   width: 100%;
 }
+.some-of-our-project {
+  height: 50vh;
+}
 .be-with-us div.container{
   justify-content: center;
   margin-bottom: 50%;
@@ -2176,8 +2185,12 @@ width: 100%;
   margin-bottom: 10%;
   flex-wrap: wrap;
 }
+.some-of-our-project div.container{
+  width: 100%;
+}
 .project-container-services{
- width: 48%; 
+ width: 28%; 
+ height: 15vh;
 }
 /*  End services Page */
 /*  Start hero Page */
@@ -2252,9 +2265,9 @@ flex-direction: column;
 }  
 .project-container{
   margin-left: 2%;
-  margin-bottom: 3%;
-  width: 100%;
-  height:100%;
+  margin-bottom: 6%;
+  width: 80%;
+  height:30vh;
   position: relative;
   display: block;
 
