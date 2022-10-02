@@ -45,7 +45,7 @@ body{
   justify-content: center;
   align-items: center;
 }
-#preloader img{ width: 25%; animation: mymove 1s infinite; -webkit-animation: mymove 1s infinite;
+#preloader img{ width: 7.5%; animation: mymove 1s infinite; -webkit-animation: mymove 1s infinite;
 }
 @keyframes mymove {
  100% { transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg); -o-transform: rotate(360deg); }
@@ -2522,6 +2522,8 @@ margin-bottom: 1%;
 }
 .review-page .be-with-us .container {
   margin-bottom:60%;
+}
+#preloader img{ width: 20%; animation: mymove 1s infinite; -webkit-animation: mymove 1s infinite;
 }
 
 /* End Review Page */
