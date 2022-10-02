@@ -75,7 +75,13 @@
                     <label for="massage">Massage</label><br>
                     <textarea placeholder="Describe yourself here..." id="massage" name="massage" rows="4" cols="50"> 
                     </textarea>
-                    <input class="submit" type="submit" value="Send Massage">
+                    <div class="file">
+                        <input type="file" id="actual-btn" hidden/>
+                        <label  class="actual-btn" for="actual-btn">Upload CV or portfolio</label>
+                        <span id="file-chosen">No file chosen</span>
+                        <input class="submit" type="submit" value="Send Massage">
+
+                    </div>
                 </form>
             </div>
         </section>
@@ -94,6 +100,13 @@ const team= document.querySelector('.team');
         document.querySelector('#employee-form').classList.toggle('show');
 
 }
+const actualBtn = document.getElementById('actual-btn');
+
+const fileChosen = document.getElementById('file-chosen');
+
+actualBtn.addEventListener('change', function(){
+  fileChosen.textContent = this.files[0].name
+})
 newProject.addEventListener('click', showForm);
 team.addEventListener('click', showForm);
 let loader=document.getElementById("preloader");

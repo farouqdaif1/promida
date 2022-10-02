@@ -127,7 +127,7 @@
                     <div class="some-of-our-project">
                         <div class="container">
                         <?php  
-                        $_GET['var'] = ' Web Development';
+                        $_GET['var'] = ' UI/UX';
                         include "subcode/projectsforservises.php"?>
                         </div>
                     </div>
@@ -244,7 +244,7 @@
                     <div class="article-head-container">
                             <div class="container">
                                 <div class="article-head">
-                                    <h2>website & Mobile Apps creation & development</h2>
+                                    <h2>Media buying plan</h2>
                                     <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
                                         we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
                                         And Showcase your services or products in the Best way.</p>                            </div>
@@ -277,7 +277,7 @@
                     <div class="some-of-our-project">
                         <div class="container">
                         <?php  
-                        $_GET['var'] = ' UI/UX';
+                        $_GET['var'] = ' Outdoor';
                         include "subcode/projectsforservises.php"?>
                         </div>
 
@@ -314,15 +314,7 @@
                         </div>
 
                     </div>
-                    <div class="some-of-our-project">
-                        <div class="container">
-                        <?php  
-                        $_GET['var'] = ' Strategy';
-                        include "subcode/projectsforservises.php"?>
-                        </div>
-                    </div>
                     <?php include 'subcode/conectus.php'?>
-
                 </article>
         </section>
     </main>
