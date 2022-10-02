@@ -283,6 +283,7 @@ main .services div.container{
   align-items:center;
   justify-content: space-evenly;
   overflow: hidden;
+  cursor: grab;
 }
 main .services div.container .our-services{
   object-fit: contain;
@@ -313,6 +314,11 @@ main .services div.container .all-services {
   justify-content: space-between;
   overflow-x: scroll;
 } 
+.items.moveactive{
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+
+}
 .all-services-small::-webkit-scrollbar,
 .all-services::-webkit-scrollbar{
   height: 0.4em;

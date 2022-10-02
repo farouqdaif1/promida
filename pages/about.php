@@ -45,7 +45,7 @@
             </div>
             <div class="about-part-three">
                 <img src="../images/keyboard.png" alt="keyboard">
-                <p>We help any business by guiding to choose the right platform with suitable plane in digital marketing services </p>
+                <p>We help any business by guiding to choose the right platform with suitable plan in digital marketing services </p>
             </div>
             <div class="about-part-four">
                 <div class="unique">

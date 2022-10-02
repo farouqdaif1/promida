@@ -63,43 +63,43 @@
             <!-- END LANDING -->
             <!-- start SERVICES -->
             <section class="services">
-                <div class="container">
+                <div class="container" id="container" >
                     <h2 class="our-services">Our Services</h2>
                     <p class="prag-services">full-service Masterly agency that provides a wide range of services in almost all aspects of marketing and advertising We are  people, relationships and the convergence of vision, focus and teamwork to deliver the best digital strategies and results your brand is looking.</p>
-                    <div class="all-services">
-                        <a href="pages/services.php" class="card">
+                    <div class="all-services items">
+                        <a href="pages/services.php" class="card item">
                             <div class="title">
                             <i class="fa-solid fa-tag"></i>                                
                                 <span>01</span>
                             </div>
                             <h3>Branding & Creating full identity system</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                            <p>It is the art of Creating your Unique Identity. </p>
                         </a>
-                        <a href="pages/services.php" class="card">
+                        <a href="pages/services.php" class="card item">
                             <div class="title">
                                 <i class="fa-solid fa-laptop-code"></i>
                                 <span>02</span>
                                 </div>
                                 <h3>website & Mobile Apps creation & development</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                <p>A brands.com experience is its best opportunity to control its own message. Therefore. we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.</p>
                         </a>
-                        <a href="pages/services.php"  class="card">
+                        <a href="pages/services.php"  class="card item">
                             <div class="title">
                                 <i class="fa-solid fa-thumbs-up"></i>
                                 <span>03</span>
                                 </div>
                                 <h3>Social Media Marketing</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                    <p>we generate ideas, branded content, and selectively distribute it across owned and paid Social Media Channels; Facebook, Twitter,Youtube, Pinterest, Instagram. etc., depending on a holistic data-driven strategy.</p>
                         </a>
-                        <a href="pages/services.php"  class="card">
+                        <a href="pages/services.php"  class="card item">
                             <div class="title">
                             <i class="fa-solid fa-camera"></i>
                             <span>04</span>
                             </div>
                             <h3>Media production</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                <p>Show Off is what Media Production Really Means.</p>
                         </a>
-                        <a href="pages/services.php" class="card">
+                        <a href="pages/services.php" class="card item">
                             <div class="title">
                             <i class="fa-solid fa-tv"></i>
                                 <span>05</span>
@@ -107,13 +107,13 @@
                                 <h3>Media buying plane</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
                         </a>
-                        <a href="pages/services.php" class="card">
+                        <a href="pages/services.php" class="card item">
                             <div class="title">
                                     <i class="fa-solid fa-chart-pie"></i>                                        
                                     <span>06</span>
                                 </div>
                                 <h3>Creating Strategies</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                <p>It is an Important step to know what is the perfect plan for the business itself By generating KPI’s and researching the market. </p>
                         </a>
                     </div>
                 </div>
@@ -146,13 +146,13 @@
                         </div>
                         <div class="countainer-num">
                         <span class="plus">&plus;</span>
-                            <div class="num" data-goal="100">0</div>
-                            <div class="text-num">More than  </br>100 sucsseful campaigns</div>
+                            <div class="num" data-goal="250">0</div>
+                            <div class="text-num">More than  </br>250 sucsseful campaigns</div>
                         </div>
                         <div class="countainer-num">
                             <span class="plus">&plus;</span>
-                            <div class="num" data-goal="30">0</div>
-                            <div class="text-num">More than </byr> 30 case studies and </br>media buying plane solution</div>
+                            <div class="num" data-goal="50">0</div>
+                            <div class="text-num">More than </byr> 50 case studies and </br>media buying plane solution</div>
                         </div>
                         <div class="countainer-num">
                             <span class="plus">&plus;</span>
@@ -219,6 +219,34 @@
     window.addEventListener('load',function(){
         loader.style.display="none"
     })
-   </script>
+    const slider=document.querySelector('.items');
+    let isDown=false;
+    let startX;
+    let scrollLeft;
+    slider.addEventListener('mousedown',(e)=>{
+     isDown=true;
+     slider.classList.add('moveactive');
+     startX=e.pageX-slider.offsetLeft;
+     scrollLeft=slider.scrollLeft;
+}) 
+slider.addEventListener('mouseleave',()=>{
+     isDown=false;
+     slider.classList.remove('moveactive');
+
+})  
+slider.addEventListener('mouseup',()=>{
+     isDown=false;
+     slider.classList.remove('moveactive');
+
+})  
+slider.addEventListener('mousemove',(e)=>{
+    if(!isDown) return;
+    e.preventDefault();
+    const x=e.pageX-slider.offsetLeft;
+    const walk=(x-startX)*1.5;
+    slider.scrollLeft= scrollLeft-walk;
+    console.log(walk)
+}) 
+</script>
 </body>
 </html>
