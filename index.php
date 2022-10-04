@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promida</title>
+<!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PS3T5RDTM1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-PS3T5RDTM1');
+    </script>
     <link rel="icon" href="images/preloader.png">
     <!-- Main css File -->
     <link rel="stylesheet" href="css/index.css">
@@ -214,38 +223,38 @@
         button.addEventListener('click', showMenu);
     </script>
    <?php include 'pages/subcode/slider.php'?>
-   <script>
-    let loader=document.getElementById("preloader");
-    window.addEventListener('load',function(){
-        loader.style.display="none"
-    })
-    const slider=document.querySelector('.items');
-    let isDown=false;
-    let startX;
-    let scrollLeft;
-    slider.addEventListener('mousedown',(e)=>{
-     isDown=true;
-     slider.classList.add('moveactive');
-     startX=e.pageX-slider.offsetLeft;
-     scrollLeft=slider.scrollLeft;
-}) 
-slider.addEventListener('mouseleave',()=>{
-     isDown=false;
-     slider.classList.remove('moveactive');
+    <script>
+        let loader=document.getElementById("preloader");
+        window.addEventListener('load',function(){
+            loader.style.display="none"
+        })
+        const slider=document.querySelector('.items');
+        let isDown=false;
+        let startX;
+        let scrollLeft;
+        slider.addEventListener('mousedown',(e)=>{
+        isDown=true;
+        slider.classList.add('moveactive');
+        startX=e.pageX-slider.offsetLeft;
+        scrollLeft=slider.scrollLeft;
+        }) 
+        slider.addEventListener('mouseleave',()=>{
+            isDown=false;
+            slider.classList.remove('moveactive');
 
-})  
-slider.addEventListener('mouseup',()=>{
-     isDown=false;
-     slider.classList.remove('moveactive');
+        })  
+        slider.addEventListener('mouseup',()=>{
+            isDown=false;
+            slider.classList.remove('moveactive');
 
-})  
-slider.addEventListener('mousemove',(e)=>{
-    if(!isDown) return;
-    e.preventDefault();
-    const x=e.pageX-slider.offsetLeft;
-    const walk=(x-startX)*1.5;
-    slider.scrollLeft= scrollLeft-walk;
-}) 
-</script>
+        })  
+        slider.addEventListener('mousemove',(e)=>{
+            if(!isDown) return;
+            e.preventDefault();
+            const x=e.pageX-slider.offsetLeft;
+            const walk=(x-startX)*1.5;
+            slider.scrollLeft= scrollLeft-walk;
+        }) 
+    </script>
 </body>
 </html>
