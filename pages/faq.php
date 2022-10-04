@@ -13,7 +13,7 @@
             <div class="container">
                 <div class="heading">
                         <h1>A Frequently Asked Questions</h1>
-                        <p>Check Out Our FAQ to Know How we Do it Amazingly! <br> Still If you Needed to know More <br>Get In Touch With Us. </p>
+                        <p>Check Out Our FAQ to Know How we Do it Amazingly! <br> Still If you Needed to know More <br> <a href="contact.php"> Get In Touch With Us. </a> </p>
                 </div>
                 <section class="faq-container">
                         <div class="faq">
@@ -29,7 +29,7 @@
                             <p class="faq-page">Do you have a portfolio or samples of your past campaigns or client work?</p>
                             <!-- faq answer -->
                             <div class="faq-body">
-                                <p>You Can Check Our Portfolio on Our Behance or our section on our website from here .</p>
+                                <p>You Can Check Our Portfolio on Our Behance or our section on our website from <a href="work.php">here</a>.</p>
                             </div>
                         </div>
                         <div class="faq">

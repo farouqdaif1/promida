@@ -76,11 +76,11 @@
                     <div class="work-process">
                         <div class="container">
                             <h2>Work Process</h2>
-                            <p>Our Role is to Create your Story and Make these Promises come true </p>
+                            <p>Our Role is to Create your Story and Make these Promises come true To Make your Customer Trust You. Our creative visual designers and branding specialists work together to a wide variety of business challenges.</p>
 
-                            <p>To Make your Customer Trust You.</p>
+                            <p>Simply Branding is not Easy step but it is the most important step Here at PROMIDA we first Sketch your Brand then we get feedback Before Proceeding to next step. </p>
 
-                            <p>Our creative visual designers and branding specialists work together to a wide variety of business challenges.</p>
+                            <p>Second step is Creating Branding Guidance For Your Business If You are in Food & Bevrage Industry or trading Company we Design packing For your industry Don’t Forget A good Brief always less time, More effort , Amazing Result  </p>
                         </div>
                         <img class="layer"src="../images/layer-12@2x.png" alt="layer">
                     </div>
@@ -110,17 +110,11 @@
                     <div class="work-process">
                         <div class="container">
                             <h2>Work Process</h2>
-                            <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                            we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                            And Showcase your services or products in the Best way.</p>
+                            <p>Before Starting first , we get to know your needed Features then Design UI/UX For your Website Then we Create a demo to test the features agreed upon </p>
 
-                            <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                            we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                            And Showcase your services or products in the Best way.</p>
+                            <p>Here at PROMIDA We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your BrandImage. </p>
 
-                            <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                            we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                            And Showcase your services or products in the Best way.</p>
+                            <p>And Showcase your services or products in the Best way we Create a website guranteed against any bugs and very responsive on any device.</p>
                         </div>
                         <img class="layer"src="../images/layer-12@2x.png" alt="layer">
                     </div>
@@ -216,17 +210,9 @@
                     <div class="work-process">
                         <div class="container">
                             <h2>Work Process</h2>
-                            <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                            we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                            And Showcase your services or products in the Best way.</p>
-
-                            <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                            we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                            And Showcase your services or products in the Best way.</p>
-
-                            <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                            we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                            And Showcase your services or products in the Best way.</p>
+                                <p>MEDIA PRODUCTION  is not about selling or showing off only At PROMIDA we execute what shows and suites your product or Service in Best, and Very honest case as Credibility matters </p>
+                                <p>we remember that Before Any Project we need Art & Guidance </p>
+                                <p>We Create and Perform those to Come out With Perfect Scene , Image & Direction</p>
                         </div>
                         <img class="layer"src="../images/layer-12@2x.png" alt="layer">
 
@@ -245,10 +231,8 @@
                             <div class="container">
                                 <div class="article-head">
                                     <h2>Media buying plan</h2>
-                                    <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                                        we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                                        And Showcase your services or products in the Best way.</p>                            </div>
-
+                                    <p>    We are Here to choose you the best Platform to appear according to your Budget per year </p>                            
+                            </div>
                                 <div class="circle-container">
                                     <div class="circle">
                                         <img id="plane-image" class="header-image"src="../images/media-buying.png" alt="computer-image">
@@ -259,17 +243,11 @@
                     <div class="work-process">
                         <div class="container">
                             <h2>Work Process</h2>
-                            <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                            we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                            And Showcase your services or products in the Best way.</p>
+                            <p>Here at PROMIDA Media buyers oversee the media buying process, with input from the Marketing team. </p>
 
-                            <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                            we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                            And Showcase your services or products in the Best way.</p>
+                            <p>With an understanding of marketing goals and target audience preferences given by Marketing  team, media buyers execute the actual purchase of the advertisement space.</p>
 
-                            <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                            we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                            And Showcase your services or products in the Best way.</p>
+                            <p>A huge part of the media buyer position is negotiating with the sites, networks, and other channels they want ads to appear on. They must ensure they are purchasing the correct placements at the correct times, for the correct duration, all within strict budgets. </p>
                         </div>
                         <img class="layer"src="../images/layer-12@2x.png" alt="layer">
 
@@ -300,19 +278,12 @@
                     <div class="work-process">
                         <div class="container">
                             <h2>Work Process</h2>
-                            <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                            we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                            And Showcase your services or products in the Best way.</p>
+                            <p>Social Media has enabled most brands and influencers to reach fans and followers at every stage of their journey, so what makes you different? </p>
 
-                            <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                            we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                            And Showcase your services or products in the Best way.</p>
+                            <p>How can you stand out from the crowd? Social has accelerated the speed of culture and your ability to keep pace in this fast environment is central to its long-term success The key ingredient to solve this dilemma is 'great content."</p>
 
-                            <p>A brands.com experience is its best opportunity to control its own message. Therefore. 
-                            we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your Brand Image.
-                            And Showcase your services or products in the Best way.</p>
+                            <p>To Meet Business Needs Executing Brief , Carry out Marketing Research Generating Items and KPIs ,Content Strategies & what Marketing Strategy Perfect for You </p>
                         </div>
-
                     </div>
                     <?php include 'subcode/conectus.php'?>
                 </article>

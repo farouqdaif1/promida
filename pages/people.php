@@ -13,7 +13,7 @@
         <div class="promida-hero">
             <div class="hero-header">
                 <h1>Promida</br>Super Heros</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                <p>Each work Has come to a result because of PROMIDA Super Heros there is no perfect work without An Amazing Team Get to know them in person !. </p>
             </div>
             <div class="hero-image">
               <img src="../images/Group 29.png" alt="person">

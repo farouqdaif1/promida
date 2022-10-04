@@ -105,7 +105,7 @@
                                 <span>05</span>
                                 </div>
                                 <h3>Media buying plane</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                <p>We are Here to choose you the best Platform to appear according to your Budget per year . </p>
                         </a>
                         <a href="pages/services.php" class="card item">
                             <div class="title">
@@ -126,8 +126,7 @@
                 </div>
                 <div class="grid-container">
                     <h2>Our</br>Latest Work</h2>
-                    <p>Every project is a piece in our hearts
-                        Check out Every category , every style of business crafted perfectly. </p>
+                    <p>Check Out Our Humble Portfolio with Marvelous Clients. </p>
                 </div>
             </section>
             <!-- END WORK -->
@@ -188,11 +187,11 @@
                     <p class="rights">© 2022. All Rights Reserved. </p>
                     </div>
                     <ul>
-                        <li><a  class="links" href="https://www.linkedin.com/company/promidadigialagency/"> <i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <li><a  class="links" href="https://www.facebook.com/PromidaDigitalMarketing/?_rdc=2&_rdr"> <i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a  class="links" href="https://www.instagram.com/promida.digital/"> <i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a  class="links" href="https://www.youtube.com/channel/UCj_DLx9f0JXituqDinf16ww"> <i class="fa-brands fa-youtube"></i></a></li>
-                        <li><a  class="links" href="https://www.behance.net/Promida"> <i class="fa-brands fa-behance"></i></a></li>
+                        <li><a  class="links" target="_blank" href="https://www.behance.net/Promida"> <i class="fa-brands fa-behance"></i></a></li>
+                        <li><a  class="links" target="_blank" href="https://www.linkedin.com/company/promidadigialagency/"> <i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a  class="links" target="_blank" href="https://www.facebook.com/PromidaDigitalMarketing/?_rdc=2&_rdr"> <i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a  class="links" target="_blank" href="https://www.instagram.com/promida.digital/"> <i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a  class="links" target="_blank" href="https://www.youtube.com/channel/UCj_DLx9f0JXituqDinf16ww"> <i class="fa-brands fa-youtube"></i></a></li>
                     </ul>
                 </div>
         </footer>

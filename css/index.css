@@ -842,7 +842,7 @@ margin-bottom: 3%;
 }
 .show-service .work-process div.container h6{
   color: var(--main-color);
-  font-size: 1.5em;
+  font-size: 1.8em;
   margin-bottom: 1%;
   }
 .show-service .work-process div.container ul{
@@ -859,6 +859,7 @@ margin-bottom: 3%;
   width: 90%;
   display: flex;
   flex-wrap: nowrap;
+  font-size: 1.5em;
 
 }
 .show-service .work-process div.container ul li{
@@ -872,8 +873,9 @@ margin-bottom: 3%;
   margin-right: 0.5em;
 }
 .show-service .work-process div.container p{
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-bottom: 5%;
+    text-align: center;
 }
 .social .work-process div.container{
   min-height: 100vh;
@@ -1955,6 +1957,11 @@ footer .container  ul li  {
 margin-left:5px;
 }
 footer .container  ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
   font-size: 14px;
   padding:5px;
   border: 1.5px solid var(--sec-color);
@@ -2168,7 +2175,7 @@ main .services div.container .all-services-small .card-small{
   min-height:100vh ;
 }
 .show-service .work-process div.container p{
-  text-align: left;
+  text-align: center;
 }
 .show-service .work-process div.container ul {
 width: 100%;
@@ -2242,9 +2249,11 @@ flex-direction: column;
 }
 .work-header{
   width: 100%;
+  z-index: 1;
 }
 .girl{
-  display: none;
+  display: block;
+  z-index: 0;
 }
 .parent-work div.container{
   height: auto;
