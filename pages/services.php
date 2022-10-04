@@ -121,7 +121,7 @@
                     <div class="some-of-our-project">
                         <div class="container">
                         <?php  
-                        $_GET['var'] = ' UI/UX';
+                        $_GET['var'] = 'Web Development &  UI/UX';
                         include "subcode/projectsforservises.php"?>
                         </div>
                     </div>
@@ -220,7 +220,7 @@
                     <div class="some-of-our-project">
                         <div class="container">
                         <?php  
-                        $_GET['var'] = ' Video Production';
+                        $_GET['var'] = 'Media Production';
                         include "subcode/projectsforservises.php"?>
                         </div>
                     </div>

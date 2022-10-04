@@ -1738,6 +1738,11 @@ align-items: flex-start;
 
   /* Unicode character for "minus" sign (-) */
 }
+.faq-link{
+  text-decoration: none;
+  color: var(--main-color);
+  display: inline-block;
+}
 /*  End FQA Page */
 /*  Start Contact Page */
 main .contact-page{

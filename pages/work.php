@@ -27,12 +27,10 @@
                 Filter by 
                <span class="All clicked filter">All</span>
             /  <span class="Branding filter">Branding</span> 
-            /  <span class="Photography filter">Photography</span>
             /  <span class="Social Media filter">Social Media</span>
             /  <span class="Outdoor filter">Outdoor Campaigns</span> 
-            /  <span class="UI/UX filter">UI/UX</span>
-            /  <span class="Video Production filter">Video Production</span> 
-            /  <span class="Web Development filter">Web Development</span></div>
+            /  <span class="Media Production filter">Media Production</span> 
+            /  <span class="Web Development filter">Web Development & UI/UX</span></div>
         </div>
         <div class="container projects  ">
         <?php include "subcode/projects.php"?>
@@ -51,16 +49,13 @@
 
         if (list.includes("Branding")) {
             clickedProjects.push("Branding")
-        }else if (list.includes("Photography") ) {
-            clickedProjects.push("Photography")
-        }else if (list.includes("Social")) {
+        }
+        else if (list.includes("Social")) {
             clickedProjects.push("Social")
         }else if (list.includes("Outdoor")) {
             clickedProjects.push("Outdoor")
-        }else if (list.includes("UI/UX")) {
-            clickedProjects.push("UI/UX")
-        }else if (list.includes("Video")) {
-            clickedProjects.push("Video")
+        }else if (list.includes("Media")) {
+            clickedProjects.push("Media")
         }else if (list.includes("Web")) {
             clickedProjects.push("Web")
         }else {
@@ -91,8 +86,6 @@
     });
 </script>
 <script>
-// Get the modal
-
     let projectsX =document.getElementsByClassName("project-container");
     for(let i=0; i < projectsX.length; i++){
     let modal = document.getElementsByClassName("modal")[i];
