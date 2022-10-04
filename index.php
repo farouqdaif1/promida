@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promida</title>
-<!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PS3T5RDTM1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -133,10 +133,10 @@
                 <div class="container">
                 <?php include 'pages/subcode/projects.php'?>
                 </div>
-                <div class="grid-container">
+                <a  href="pages/work.php" class="grid-container">
                     <h2>Our</br>Latest Work</h2>
                     <p>Check Out Our Humble Portfolio with Marvelous Clients. </p>
-                </div>
+                </a>
             </section>
             <!-- END WORK -->
             <!-- START WORK WITH -->
