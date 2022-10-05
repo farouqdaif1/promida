@@ -67,7 +67,6 @@
 <?php include 'subcode/footer.php'?>
 </div>
 <?php include 'subcode/script.php'?>
-<?php include 'subcode/slider.php'?>
 <script>
         let loader=document.getElementById("preloader");
     window.addEventListener('load',function(){

@@ -1,5 +1,7 @@
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Promdia">
+    <?php include 'meta.php'?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google tag (gtag.js) -->
@@ -19,5 +21,4 @@
     <!-- Render all Elements Normally   -->
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-
 </head>
