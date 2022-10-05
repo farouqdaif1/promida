@@ -18,4 +18,6 @@
     <link rel="stylesheet" href="../css/all.min.css">
     <!-- Render all Elements Normally   -->
     <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
 </head>

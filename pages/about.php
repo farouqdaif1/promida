@@ -74,5 +74,21 @@
         loader.style.display="none"
     })
 </script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        loop: true,
+        autoplay:{
+            delay:3000,
+            disableOnInteraction:false,
+        },        
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
+    </script>
 </body>
 </html>

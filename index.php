@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <!-- Render all Elements Normally   -->
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
     <div id="preloader">
@@ -210,18 +211,16 @@
     <?php include 'pages/subcode/counter.php'?>
     <script >
         const menu = document.querySelector('.toggle-menu');
-        const button= document.querySelector('.close-btn')
+        const button= document.querySelector('.close-btn');
             function showMenu() {
                 document.querySelector('.close-btn').classList.toggle('active');
                 document.querySelector('.ul-links').classList.toggle('active');
                 document.querySelector('.mob').classList.toggle('active');
                 document.getElementById("overlay").classList.toggle('overlay');
-
             }
         menu.addEventListener('click', showMenu);
         button.addEventListener('click', showMenu);
     </script>
-   <?php include 'pages/subcode/slider.php'?>
     <script>
         let loader=document.getElementById("preloader");
         window.addEventListener('load',function(){
@@ -254,6 +253,22 @@
             const walk=(x-startX)*1.5;
             slider.scrollLeft= scrollLeft-walk;
         }) 
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        loop: true,
+        autoplay:{
+            delay:3000,
+            disableOnInteraction:false,
+        },        
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
     </script>
 </body>
 </html>
