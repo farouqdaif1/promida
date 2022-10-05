@@ -1671,6 +1671,7 @@ height: auto;
 }
 .heading p {
   color: var(--sec-color);
+  line-height: 1.5em;
 
 }
 .faq-container{
@@ -1723,6 +1724,7 @@ align-items: flex-start;
   -moz-border-radius: 15px  15px;
   -ms-border-radius: 15px  15px;
   -o-border-radius: 15px  15px;
+  line-height: 1.5em;
 }
 .faq-page:after {
   content: '\02795';
