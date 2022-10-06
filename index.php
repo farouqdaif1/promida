@@ -61,7 +61,12 @@
                     <div class="landing-header">
                         <h1>Embrace</br> Your Legacy</h1>
                         <p>It began with searching of Glory and strength That's How you what to begin too,So here is our path together …</p>
-                        <a href=""><i class="fa-solid fa-circle-play"></i> Showreel!</a>
+                        <?php 
+                         $reel_api_url = 'https://promida-strapi.herokuapp.com/api/reels';
+                         $reel_data=json_decode(file_get_contents($reel_api_url),true);
+                                 $reel_link=$reel_data["data"][0]["attributes"]["Link"];
+                        echo "<a target='_blank' href='".$reel_link."' ><i class='fa-solid fa-circle-play'></i> Showreel!</a>"
+                        ?>
                     </div>
                     <div class="landing-image">
                         <div class="image-div">
