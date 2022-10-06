@@ -8,7 +8,7 @@
                         $image_data=json_decode(file_get_contents($api_url),true);
                         for ($x = 0; $x <count($image_data["data"]); $x++) {
                         $image_link=$image_data["data"][$x]["attributes"]["company_Image"]["data"]["attributes"]["url"];
-                        echo "<img class='image-logo' src='".$image_link."'/>";
+                        echo "<img class='image-logo' alt='Company logo' src='".$image_link."'/>";
                         }
                     ?>
                 </div>

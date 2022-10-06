@@ -11,7 +11,7 @@
             if($variable===$project_type){
                 echo "<div class='project-container-services ".$project_type."'>
                 <a href='".$project_link."'>
-                    <img class='image-project-services' src='".$project_img."'/>
+                    <img class='image-project-services'  alt='Cover for the project' src='".$project_img."'/>
                 </a>
             </div>";  
             }

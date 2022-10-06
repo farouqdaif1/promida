@@ -10,7 +10,7 @@
             if($project_type==" Video Production"){
                 echo
                 "<div class='project-container ".$project_type."'>
-                       <img class='image-project' src='".$project_img."'/>
+                       <img class='image-project' alt='Cover for the project' src='".$project_img."'/>
                        <button class='myBtn'>Open Project</button>
                    </div>
                    <div class='modal'>
@@ -40,7 +40,7 @@
             }else{
                 echo
                  "<div class='project-container ".$project_type."'>
-                        <img class='image-project' src='".$project_img."'/>
+                        <img class='image-project'  alt='Cover for the project' src='".$project_img."' />
                         <button class='myBtn'>Open Project</button>
                     </div>
                     <div class='modal'>
@@ -55,7 +55,7 @@
                                 <p>".$project_type."</p>
                             </div>
                             <div class='image-modal-content'>
-                            <img class='image-modal' src='".$project_img."'/>
+                            <img class='image-modal'  alt='Cover for the project' src='".$project_img."'/>
                             </div>
                         </div>
                         <div class='left-modal-content'>
