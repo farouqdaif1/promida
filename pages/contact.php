@@ -25,7 +25,7 @@
                         <p>Address: <a href="https://goo.gl/maps/n66VcQgAd52Cx6tJA">Fuad st. " AL-Horya Rd" Alexandria Egypt </a></p>
                     </div>
                 </div>
-                <form class="form-talk " id="company-form">
+                <form action="mail.php" method="POST" class="form-talk " id="company-form">
                     <div class="box1">
                         <div class="box">
                             <label for="fname">First name</label>
@@ -46,12 +46,11 @@
                             <input type="text" id="cname" name="cname" placeholder="Input your company name here">
                         </div>
                     </div>
-                    <label for="massage">Massage</label><br>
-                    <textarea placeholder="Describe yourself here..." id="massage" name="massage" rows="4" cols="50"> 
-                    </textarea>
+                    <label for="message">Massage</label><br>
+                    <textarea placeholder="Describe yourself here..." id="message" name="message" rows="4" cols="50"></textarea>
                     <input class="submit" type="submit" value="Send Massage">
                 </form>
-                <form class="form-talk show"  id="employee-form">
+                <form action="maile.php" method="POST" class="form-talk show"  id="employee-form" enctype="multipart/form-data">
                     <div class="box1">
                         <div class="box">
                             <label for="fname">First name</label>
@@ -72,15 +71,13 @@
                             <input type="text" id="cname" name="cname" placeholder="Input your company name here">
                         </div>
                     </div>
-                    <label for="massage">Massage</label><br>
-                    <textarea placeholder="Describe yourself here..." id="massage" name="massage" rows="4" cols="50"> 
-                    </textarea>
+                    <label for="message">Massage</label><br>
+                    <textarea placeholder="Describe yourself here..." id="message" name="message" rows="4" cols="50"></textarea>
                     <div class="file">
-                        <input type="file" id="actual-btn" hidden/>
+                        <input type="file" id="actual-btn" name="attachment" hidden/>
                         <label  class="actual-btn" for="actual-btn">Upload CV or portfolio</label>
                         <span id="file-chosen">No file chosen</span>
-                        <input class="submit" type="submit" value="Send Massage">
-
+                        <input class="submit" type="submit" name="button" value="Send Massage">
                     </div>
                 </form>
             </div>

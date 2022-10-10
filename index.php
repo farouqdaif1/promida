@@ -121,7 +121,7 @@
                             <i class="fa-solid fa-tv"></i>
                                 <span>05</span>
                                 </div>
-                                <h3>Media buying plane</h3>
+                                <h3>Media buying plan</h3>
                                 <p>We are Here to choose you the best Platform to appear according to your Budget per year . </p>
                         </a>
                         <a href="pages/services.php" class="card item">
