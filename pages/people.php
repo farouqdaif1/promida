@@ -24,20 +24,83 @@
     <section class="promida-people">
         <div class="container">
         <?php
-            $api_url = 'https://promida-strapi.herokuapp.com/api/heroes?populate=*';
-            $hero_data=json_decode(file_get_contents($api_url),true);
-                for ($x = 0; $x <count($hero_data["data"]); $x++) {
-                    $hero_title=$hero_data["data"][$x]["attributes"]["title"];
-                    $hero_name=$hero_data["data"][$x]["attributes"]["name"];
-                    $hero_img=$hero_data["data"][$x]["attributes"]["photo"]["data"]["attributes"]["url"];
-                        echo "<div class='hero-container'>
-                            <img class='image-hero' src='".$hero_img."'/>
-                            <div class='hero-info'>
-                                <p class='hero-first-paragraph'>".$hero_name."</p>
-                                <p class='hero-sec-paragraph'>".$hero_title."</p>
-                            </div>
-                    </div>";  
+            // Define API endpoint
+            $api_url = 'http://localhost:1337/api/teams?populate=*';
+            
+            // Function to safely fetch data with error handling
+            function fetchApiData($url) {
+                $context = stream_context_create([
+                    'http' => [
+                        'timeout' => 5, // 5 seconds timeout
+                        'ignore_errors' => true
+                    ]
+                ]);
+                
+                $response = @file_get_contents($url, false, $context);
+                
+                // Check for errors
+                if ($response === false) {
+                    // Return empty data structure if request fails
+                    return [
+                        'data' => [],
+                        'meta' => ['pagination' => ['total' => 0]]
+                    ];
+                }
+                
+                return json_decode($response, true);
+            }
+            
+            // Fetch team data with error handling
+            $team_data = fetchApiData($api_url);
+            
+            // Check if we have data to display
+            if (!empty($team_data['data'])) {
+                $image_base_url = 'http://localhost:1337';
+                
+                foreach ($team_data['data'] as $team_member) {
+                    // Extract data safely with fallbacks
+                    $member_name = $team_member['name'] ?? 'Unknown Name';
+                    $member_title = $team_member['title'] ?? 'Team Member';
+                    
+                    // Handle image URL - check if photo exists and use appropriate path
+                    $member_img = '../images/default-profile.jpg'; // Default fallback image
+                    
+                    if (isset($team_member['photo']) && isset($team_member['photo']['url'])) {
+                        // Use medium format if available for better performance vs quality balance
+                        if (isset($team_member['photo']['formats']['medium']['url'])) {
+                            $member_img = $image_base_url . $team_member['photo']['formats']['medium']['url'];
+                        } else {
+                            $member_img = $image_base_url . $team_member['photo']['url'];
+                        }
                     }
+                    
+                    // Output the team member HTML
+                    echo "<div class='hero-container'>
+                        <img class='image-hero' src='" . htmlspecialchars($member_img) . "' alt='" . htmlspecialchars($member_name) . "'/>
+                        <div class='hero-info'>
+                            <p class='hero-first-paragraph'>" . htmlspecialchars($member_name) . "</p>
+                            <p class='hero-sec-paragraph'>" . htmlspecialchars($member_title) . "</p>
+                        </div>
+                    </div>";
+                }
+            } else {
+                // Fallback content if no team members are found
+                echo "<div class='hero-container'>
+                    <img class='image-hero' src='../images/default-profile.jpg' alt='Default profile'/>
+                    <div class='hero-info'>
+                        <p class='hero-first-paragraph'>John Doe</p>
+                        <p class='hero-sec-paragraph'>Creative Director</p>
+                    </div>
+                </div>";
+                
+                echo "<div class='hero-container'>
+                    <img class='image-hero' src='../images/default-profile.jpg' alt='Default profile'/>
+                    <div class='hero-info'>
+                        <p class='hero-first-paragraph'>Jane Smith</p>
+                        <p class='hero-sec-paragraph'>Marketing Specialist</p>
+                    </div>
+                </div>";
+            }
         ?>
         </div>
         <div class="be-with-us">

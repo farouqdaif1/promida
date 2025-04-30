@@ -68,7 +68,7 @@
                                 </div>
                                 <div class="circle-container">
                                     <div class="circle">
-                                        <img  id="branding-image" class="header-image"src="../images/BRANDING.png" alt="computer-image">
+                                        <img  id="branding-image" class="header-image"src="../images/New folder/BRANDING.png" alt="computer-image">
                                     </div>
                                 </div>
                         </div>
@@ -121,7 +121,7 @@
                     <div class="some-of-our-project">
                         <div class="container">
                         <?php  
-                        $_GET['var'] = 'Web Development &  UI/UX';
+                        $_GET['var'] = 'Web Development & UI/UX';
                         include "subcode/projectsforservises.php"?>
                         </div>
                     </div>
@@ -235,7 +235,7 @@
                             </div>
                                 <div class="circle-container">
                                     <div class="circle">
-                                        <img id="plane-image" class="header-image"src="../images/media-buying.png" alt="computer-image">
+                                        <img id="plane-image" class="header-image"src="../images/New folder/media-buying.png" alt="computer-image">
                                     </div>
                                 </div>
                         </div>
@@ -255,7 +255,7 @@
                     <div class="some-of-our-project">
                         <div class="container">
                         <?php  
-                        $_GET['var'] = ' Outdoor';
+                        $_GET['var'] = 'Outdoor';
                         include "subcode/projectsforservises.php"?>
                         </div>
 

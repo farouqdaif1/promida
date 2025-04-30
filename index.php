@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promida</title>
-    <?php include '<pages/subcode/meta.php'?>
+    <?php include 'pages/subcode/meta.php'; ?>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PS3T5RDTM1"></script>
@@ -61,12 +61,6 @@
                     <div class="landing-header">
                         <h1>Embrace</br> Your Legacy</h1>
                         <p>It began with searching of Glory and strength That's How you what to begin too,So here is our path together …</p>
-                        <?php 
-                         $reel_api_url = 'https://promida-strapi.herokuapp.com/api/reels';
-                         $reel_data=json_decode(file_get_contents($reel_api_url),true);
-                                 $reel_link=$reel_data["data"][0]["attributes"]["Link"];
-                        echo "<a target='_blank' href='".$reel_link."' ><i class='fa-solid fa-circle-play'></i> Showreel!</a>"
-                        ?>
                     </div>
                     <div class="landing-image">
                         <div class="image-div">
@@ -130,7 +124,7 @@
                                     <span>06</span>
                                 </div>
                                 <h3>Creating Strategies</h3>
-                                <p>It is an Important step to know what is the perfect plan for the business itself By generating KPI’s and researching the market. </p>
+                                <p>It is an Important step to know what is the perfect plan for the business itself By generating KPI's and researching the market. </p>
                         </a>
                     </div>
                 </div>
@@ -183,9 +177,9 @@
             <section class="contact">
             <div class="be-with-us">
                     <div class="container">
-                        <h2>We’re Sure You Have </br>
+                        <h2>We're Sure You Have </br>
                             an Amazing Idea</h2>
-                        <p>Let’s discuss how to bring it to life.</p>
+                        <p>Let's discuss how to bring it to life.</p>
                         <a class="touch" href="pages/contact.php">Contact Us</a>
                     </div>
                 </div>
