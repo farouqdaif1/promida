@@ -42,8 +42,8 @@
                         <ul class="ul-links active">
                             <li><a class="links" href="index.php"> Home</a></li>
                             <li><a class="links" href="pages/services.php"> Services</a></li>
-                            <li><a class="links" href="pages/work.php"> Work</a></li>
-                            <li><a class="links" href="pages/people.php">Our Team</a></li>
+                            <li><a class="links" href="pages/work.php"> Achievements</a></li>
+                            <li><a class="links" href="pages/people.php">Our heroes</a></li>
                             <li><a class="links" href="pages/about.php"> About us</a></li>
                             <li><a class="links" href="pages/reviews.php"> Reviews</a></li>
                         </ul>
@@ -58,11 +58,11 @@
             <!-- start LANDING -->
             <section class="landing">
                 <div class="container">
-                    <div class="landing-header">
+                    <div class="landing-header fade-in-section">
                         <h1>Embrace</br> Your Legacy</h1>
-                        <p>It began with searching of Glory and strength That's How you what to begin too,So here is our path together …</p>
+                        <p>It all began with a pursuit of glory and strength Journey shaped by vision, passion, and purpose. <br>That’s how you choose to begin, too Where is where our paths align.</p>
                     </div>
-                    <div class="landing-image">
+                    <div class="landing-image fade-in-section delay-400">
                         <div class="image-div">
                             <div class="line-top"></div>
                             <img src="images/landing.png" alt="chess">
@@ -75,56 +75,50 @@
             <!-- start SERVICES -->
             <section class="services">
                 <div class="container" id="container" >
-                    <h2 class="our-services">Our Services</h2>
-                    <p class="prag-services">full-service Masterly agency that provides a wide range of services in almost all aspects of marketing and advertising We are  people, relationships and the convergence of vision, focus and teamwork to deliver the best digital strategies and results your brand is looking.</p>
+                    <h2 class="our-services fade-in-section">Our Services</h2>
+                    <p class="prag-services fade-in-section delay-200">We are a full-service, masterly agency offering a wide range of services across nearly all aspects of marketing and advertising.</br>
+We believe in people, strong relationships, and the power of vision, focus, and teamwork to deliver outstanding digital strategies and
+results that your brand truly deserves.</p>
                     <div class="all-services items">
-                        <a href="pages/services.php" class="card item">
+                        <a href="pages/services.php" class="card item fade-in-section">
                             <div class="title">
                             <i class="fa-solid fa-tag"></i>                                
                                 <span>01</span>
                             </div>
                             <h3>Branding & Creating full identity system</h3>
-                            <p>It is the art of Creating your Unique Identity. </p>
+                            <!-- <p>It is the art of Creating your Unique Identity. </p> -->
                         </a>
-                        <a href="pages/services.php" class="card item">
+                        <a href="pages/services.php" class="card item fade-in-section delay-200">
                             <div class="title">
                                 <i class="fa-solid fa-laptop-code"></i>
                                 <span>02</span>
                                 </div>
                                 <h3>website & Mobile Apps creation & development</h3>
-                                <p>A brands.com experience is its best opportunity to control its own message. Therefore. we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.</p>
+                                <!-- <p>A brands.com experience is its best opportunity to control its own message. Therefore. we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.</p> -->
                         </a>
-                        <a href="pages/services.php"  class="card item">
+                        <a href="pages/services.php"  class="card item fade-in-section delay-400">
                             <div class="title">
                                 <i class="fa-solid fa-thumbs-up"></i>
                                 <span>03</span>
                                 </div>
                                 <h3>Social Media Marketing</h3>
-                                    <p>we generate ideas, branded content, and selectively distribute it across owned and paid Social Media Channels; Facebook, Twitter,Youtube, Pinterest, Instagram. etc., depending on a holistic data-driven strategy.</p>
+                                    <!-- <p>we generate ideas, branded content, and selectively distribute it across owned and paid Social Media Channels; Facebook, Twitter,Youtube, Pinterest, Instagram. etc., depending on a holistic data-driven strategy.</p> -->
                         </a>
-                        <a href="pages/services.php"  class="card item">
+                        <a href="pages/services.php"  class="card item fade-in-section delay-600">
                             <div class="title">
                             <i class="fa-solid fa-camera"></i>
                             <span>04</span>
                             </div>
                             <h3>Media production</h3>
-                                <p>Show Off is what Media Production Really Means.</p>
+                                <!-- <p>Show Off is what Media Production Really Means.</p> -->
                         </a>
-                        <a href="pages/services.php" class="card item">
+                        <a href="pages/services.php" class="card item fade-in-section delay-800">
                             <div class="title">
                             <i class="fa-solid fa-tv"></i>
                                 <span>05</span>
                                 </div>
-                                <h3>Media buying plan</h3>
-                                <p>We are Here to choose you the best Platform to appear according to your Budget per year . </p>
-                        </a>
-                        <a href="pages/services.php" class="card item">
-                            <div class="title">
-                                    <i class="fa-solid fa-chart-pie"></i>                                        
-                                    <span>06</span>
-                                </div>
-                                <h3>Creating Strategies</h3>
-                                <p>It is an Important step to know what is the perfect plan for the business itself By generating KPI's and researching the market. </p>
+                                <h3>Media buying strategy</h3>
+                                <!-- <p>We are Here to choose you the best Platform to appear according to your Budget per year . </p> -->
                         </a>
                     </div>
                 </div>
@@ -135,7 +129,7 @@
                 <div class="container">
                 <?php include 'pages/subcode/projects.php'?>
                 </div>
-                <a  href="pages/work.php" class="grid-container">
+                <a href="pages/work.php" class="grid-container fade-in-section">
                     <h2>Our</br>Latest Work</h2>
                     <p>Check Out Our Humble Portfolio with Marvelous Clients. </p>
                 </a>
@@ -147,24 +141,24 @@
              <!-- start Over all -->
              <section class="over-all">
                 <div class="container">
-                    <h2>Trusted by</h2>
+                    <h2 class="fade-in-section">Trusted by</h2>
                     <div class="nums">
-                        <div class="countainer-num">
+                        <div class="countainer-num fade-in-section">
                         <span class="plus">&plus;</span>
                             <div class="num" data-goal="50">0</div>
-                            <div class="text-num">More than  50 clintes </br>All over Delta Region</div>
+                            <div class="text-num">More than  50 clintes </br>All over the middle east</div>
                         </div>
-                        <div class="countainer-num">
+                        <div class="countainer-num fade-in-section delay-200">
                         <span class="plus">&plus;</span>
                             <div class="num" data-goal="250">0</div>
                             <div class="text-num">More than  </br>250 sucsseful campaigns</div>
                         </div>
-                        <div class="countainer-num">
+                        <div class="countainer-num fade-in-section delay-400">
                             <span class="plus">&plus;</span>
                             <div class="num" data-goal="50">0</div>
-                            <div class="text-num">More than </byr> 50 case studies and </br>media buying plane solution</div>
+                            <div class="text-num">More than </byr> 50 case studies and </br>media buying plane solutions</div>
                         </div>
-                        <div class="countainer-num">
+                        <div class="countainer-num fade-in-section delay-600">
                             <span class="plus">&plus;</span>
                             <div class="num" data-goal="45">0</div>
                             <div class="text-num">More than 45 media </br>Production campaingns</div>
@@ -177,10 +171,10 @@
             <section class="contact">
             <div class="be-with-us">
                     <div class="container">
-                        <h2>We're Sure You Have </br>
+                        <h2 class="fade-in-section">We're Sure You Have </br>
                             an Amazing Idea</h2>
-                        <p>Let's discuss how to bring it to life.</p>
-                        <a class="touch" href="pages/contact.php">Contact Us</a>
+                        <p class="fade-in-section delay-200">Let's discuss how to bring it to life.</p>
+                        <a class="touch fade-in-section delay-400" href="pages/contact.php">Contact Us</a>
                     </div>
                 </div>
                 <img class="layer-index"src="images/layer-12@2x.png" alt="layer">
@@ -193,15 +187,17 @@
             <div class="container">
                     <a  class="logo" href="index.php"><img  src="images/logo.png" alt="logo"></a>
                     <div class="text">
-                    <div> <a href="pages/faq.php">FAQ </a>  <span> | Privacy Policy</span><span> | Cookie Policy </span> </div>
-                    <p class="rights">© 2022. All Rights Reserved. </p>
+                    <div> <a href="pages/faq.php">FAQ </a></div>
+                    <p class="rights">© 2025. All Rights Reserved. </p>
                     </div>
                     <ul>
+
                         <li><a  class="links" target="_blank" href="https://www.behance.net/Promida"> <i class="fa-brands fa-behance"></i></a></li>
                         <li><a  class="links" target="_blank" href="https://www.linkedin.com/company/promidadigialagency/"> <i class="fa-brands fa-linkedin-in"></i></a></li>
                         <li><a  class="links" target="_blank" href="https://www.facebook.com/PromidaDigitalMarketing/?_rdc=2&_rdr"> <i class="fa-brands fa-facebook-f"></i></a></li>
                         <li><a  class="links" target="_blank" href="https://www.instagram.com/promida.digital/"> <i class="fa-brands fa-instagram"></i></a></li>
                         <li><a  class="links" target="_blank" href="https://www.youtube.com/channel/UCj_DLx9f0JXituqDinf16ww"> <i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a  class="links" target="_blank" href="https://pin.it/2iK82BkQu"> <i class="fa-brands fa-pinterest"></i></a></li>
                     </ul>
                 </div>
         </footer>
@@ -271,5 +267,7 @@
         },
         });
     </script>
+    <!-- Fade effects script -->
+    <script src="js/fade-effects.js"></script>
 </body>
 </html>

@@ -10,56 +10,50 @@
     <main>
         <section class="services services-background">
             <div class="container services-container">
-                    <h2 class="our-services">Our Services</h2>
-                    <p class="prag-services">Providing You Our Digital Services Thats Suits your Brand Starting From Branding Integrated with Business Needs to Web & App Development </p>
-                    <p class="prag-services">We are first digital marketing agency in Behaira and leading agency in Alexandria </p>
+                    <h2 class="our-services fade-in-section">Our Services</h2>
+                    <p class="prag-services fade-in-section delay-200">We provide digital services tailored to your brand — from business-
+                    driven branding to seamless web and app development. </p>
+                    <p class="prag-services fade-in-section delay-400">Leading Digital Marketing Corporate in the Middle East </p>
                 <div class="all-services-small">
-                            <a id="branding" class="branding-e card-small card-active">
+                            <a id="branding" class="branding-e card-small card-active fade-in-section">
                                 <div class="title branding-e">
                                     <i class="fa-solid fa-tag branding-e"></i>                                
                                     <span class="branding-e">01</span>
                                 </div>
                                 <h3 class="branding-e">Branding & Creating full identity system</h3>
                             </a>
-                            <a id="website" class="card-small website-e">
+                            <a id="website" class="card-small website-e fade-in-section delay-200">
                                 <div class="title website-e">
                                 <i class="fa-solid fa-laptop-code website-e"></i> 
                                 <span class="website-e">02</span>
                                 </div>
                                 <h3 class="website-e">website & Mobile Apps creation & development</h3>
                             </a>
-                            <a id="social" class="card-small social-e">
+                            <a id="social" class="card-small social-e fade-in-section delay-400">
                                 <div class="title social-e">
                                 <i class="fa-solid fa-thumbs-up social-e"></i>
                                 <span class="social-e">03</span>
                                 </div>
                                 <h3 class="social-e">Social Media Marketing</h3>
                             </a>
-                            <a id="production" class="card-small production-e">
+                            <a id="production" class="card-small production-e fade-in-section delay-600">
                                 <div class="title production-e">
                                 <i class="fa-solid fa-camera production-e"></i>
                                 <span class="production-e">04</span>
                                 </div>
                                 <h3 class="production-e">Media production</h3>
                             </a>
-                            <a id="media" class="card-small media-e">
+                            <a id="media" class="card-small media-e fade-in-section delay-800">
                                 <div class="title media-e">
                                 <i class="fa-solid fa-tv media-e"></i>
                                     <span class="media-e">05</span>
                                 </div>
-                                <h3 class="media-e">Media buying plan</h3>
-                            </a>
-                            <a id="strategies" class="card-small strategies-e">
-                                <div class="title strategies-e">
-                                <i class="fa-solid fa-chart-pie strategies-e"></i>
-                                    <span class="strategies-e">06</span>
-                                </div>
-                                <h3 class="strategies-e">Creating Strategies</h3>
+                                <h3 class="media-e">Media buying strategy</h3>
                             </a>
             </div>
         </section>
         <section class="show-service">
-                <article class="branding article">
+                <article class="branding article fade-in-section">
                     <div class="article-head-container">
                             <div class="container">
                                 <div class="article-head">
@@ -76,11 +70,11 @@
                     <div class="work-process">
                         <div class="container">
                             <h2>Work Process</h2>
-                            <p>Our Role is to Create your Story and Make these Promises come true To Make your Customer Trust You. Our creative visual designers and branding specialists work together to a wide variety of business challenges.</p>
+                            <p>Branding is the art of crafting a unique identity — and that's where we lead. We build compelling brand stories, backed by real promises that earn your customer's trust.</p>
 
-                            <p>Simply Branding is not Easy step but it is the most important step Here at PROMIDA we first Sketch your Brand then we get feedback Before Proceeding to next step. </p>
+                            <p>Our team of visual designers and branding experts collaborate to deliver elegant, distinctive, and effective solutions tailored to real business challenges.</p>
 
-                            <p>Second step is Creating Branding Guidance For Your Business If You are in Food & Bevrage Industry or trading Company we Design packing For your industry Don’t Forget A good Brief always less time, More effort , Amazing Result  </p>
+                            <p>Unlike traditional agencies, we go beyond visuals — we align your brand with purpose, strategy, and measurable business results.</p>
                         </div>
                         <img class="layer"src="../images/layer-12@2x.png" alt="layer">
                     </div>
@@ -93,12 +87,12 @@
                     </div>
                     <?php include 'subcode/conectus.php'?>
                 </article>
-                 <article class="website ">
+                 <article class="website fade-in-section">
                     <div class="article-head-container">
                             <div class="container">
                                 <div class="article-head">
                                     <h2>website & Mobile Apps creation & development</h2>
-                                    <p>A brands.com experience is its best opportunity to control its own message. Therefore. we create content with a strong communications purpose while taking into consideration consumer insights. We then build elegant, durable solutions to key business challenges across all touchpoints, screens, and Devices.</p>
+                                    <p>A brand's website or app is its best opportunity to control its message. That's why we create purposeful, engaging content backed by deep consumer insights. We then craft elegant, durable solutions that address key business challenges across every touchpoint, screen, and device. </p>
                                 </div>
                                 <div class="circle-container">
                                     <div class="circle">
@@ -110,7 +104,7 @@
                     <div class="work-process">
                         <div class="container">
                             <h2>Work Process</h2>
-                            <p>Before Starting first , we get to know your needed Features then Design UI/UX For your Website Then we Create a demo to test the features agreed upon </p>
+                            <p>We design and develop beautiful, user-friendly, secure, and stable websites and mobile apps that not only reflect your brand image but also showcase your products or services in the best possible way.</p>
 
                             <p>Here at PROMIDA We Craft beautiful, elegant, user-friendly,secure and stable websites for your business that represents your BrandImage. </p>
 
@@ -128,12 +122,12 @@
                     <?php include 'subcode/conectus.php'?>
 
                 </article>
-                <article class="social ">
+                <article class="social fade-in-section">
                     <div class="article-head-container">
                             <div class="container">
                                 <div class="article-head">
                                     <h2>Social Media Marketing</h2>
-                                    <p>we generate ideas, branded content, and selectively distribute it across owned and paid Social Media Channels; Facebook, Twitter,Youtube, Pinterest, Instagram. etc., depending on a holistic data-driven strategy.</p>                            
+                                    <p>We turn ideas into engaging branded content — crafted to connect, inspire, and convert. Backed by data and strategy, we deliver your message where it matters most, building real impact for your brand.</p>                            
                                 </div>
 
                                 <div class="circle-container">
@@ -146,31 +140,23 @@
                     <div class="work-process">
                         <div class="container">
                             <h2>Social Media </h2>
-                            <ul>
-                                <li>Advertising Targeted Campaigns </li>
-                                <li>Increasing Brand Awareness </li>
-                                <li>Building Community </li>
-                                <li>Customer Education </li>
-                                <li> Customer-Caring  </li>
-                                <li> Originating Leads </li>
-                            </ul>
                             <h6>Advertising Targeted Campaigns</h6>
                             <p>We are working inside the market itself We see the potential Customers in Each season and their needs & we target them by User-Generated Content and Creative theme to keep them up-to-date to your Business .</p>
                             <h6>Increasing Brand Awareness</h6>
-                            <p>Our main object is to penetrate the Market with your Business and increase the Word of Mouth on Social Media “ PTAT “ </p>
+                            <p>We aim to deeply position your business in the market while amplifying word-of-mouth through social media — driving real engagement and higher PTAT.</p>
                             <h6>Building Community </h6>
-                            <p>After Building Community they always eager to know more about your Business And here Comes our role in Educating  and Guiding them</p>
+                            <p>With your brand identity established and impactful ad campaigns in motion, boosting PTAT at this stage is a natural progression — the momentum is already working in your favor.</p>
                             <ul id="community">
                                 <li>We Generated Advertising Campaigns and Created your Identity </li>
-                                <li>Then we increase “PTAT “ So the result we have a group of people aware of your Business And this is called  Community 
+                                <li>Then we increase "PTAT " So the result we have a group of people aware of your Business And this is called  Community 
                                 By this we can say we have a good Marketing Booster </li>
                             </ul>
                             <h6>Customer Education </h6>
-                            <p>After Building Community they always eager to know more about your Business And here Comes our role in Educating  and Guiding them</p>
+                            <p>Once a community is built, curiosity grows — and that's where we step in to educate, engage, and guide them deeper into your brand.</p>
                             <h6>Customer- Caring  </h6>
-                            <p>There is no successful marketing without bad feedbacks or suggestions We are leaders in listening and satisfying your Customers or even Ours  </p>
+                            <p>Great marketing starts with listening. We turn feedback — even the tough kind — into opportunities to refine, connect, and exceed expectations for your customers and ours.</p>
                             <h6>Originating Leads </h6>
-                            <p>We have Created and Educated this Community So, all they need some information about the product or service itself and some Contact information to do the “ Call to Action “ </p>
+                            <p>We've cultivated and educated this community, so now they're ready — all that's left is providing the right product info and contact details to inspire action and drive conversions. </p>
                         </div>
                     </div>
                     <div class="some-of-our-project">
@@ -184,11 +170,11 @@
                     <?php include 'subcode/conectus.php'?>
 
                 </article>
-                <article class="production ">
+                <article class="production fade-in-section">
                     <div class="article-head-container">
                             <div class="container">
                                 <div class="article-head">
-                                    <h2>Media buying plan</h2>
+                                    <h2>Media Production</h2>
                                     <p>Show Off is what Media Production Really Means. </p>
                                     <ul>
                                         <li>Photo Sessions</li>
@@ -210,9 +196,9 @@
                     <div class="work-process">
                         <div class="container">
                             <h2>Work Process</h2>
-                                <p>MEDIA PRODUCTION  is not about selling or showing off only At PROMIDA we execute what shows and suites your product or Service in Best, and Very honest case as Credibility matters </p>
-                                <p>we remember that Before Any Project we need Art & Guidance </p>
-                                <p>We Create and Perform those to Come out With Perfect Scene , Image & Direction</p>
+                                <p>Media production isn't just about selling— it's about telling the right story. At PROMIDA, we produce authentic visuals that reflect your product or service in the most honest and impactful way, because credibility matters.</p>
+                                <p>Before every project, we focus on two essentials: art and strategy. We craft concepts, direct scenes, and create visuals that connect, inspire, and elevate your brand. </p>
+                                <p>We also harness the power of User-Generated Content, turning real customer moments into powerful, trust-building assets that amplify your message and boost engagement</p>
                         </div>
                         <img class="layer"src="../images/layer-12@2x.png" alt="layer">
 
@@ -226,11 +212,11 @@
                     </div>
                     <?php include 'subcode/conectus.php'?>
                 </article>
-                <article class="media ">
+                <article class="media fade-in-section">
                     <div class="article-head-container">
                             <div class="container">
                                 <div class="article-head">
-                                    <h2>Media buying plan</h2>
+                                    <h2>Media Buying Strategy</h2>
                                     <p>    We are Here to choose you the best Platform to appear according to your Budget per year </p>                            
                             </div>
                                 <div class="circle-container">
@@ -243,11 +229,11 @@
                     <div class="work-process">
                         <div class="container">
                             <h2>Work Process</h2>
-                            <p>Here at PROMIDA Media buyers oversee the media buying process, with input from the Marketing team. </p>
+                            <p>At PROMIDA, our media buying experts transform insights into action — placing your brand exactly where your audience is. </p>
 
-                            <p>With an understanding of marketing goals and target audience preferences given by Marketing  team, media buyers execute the actual purchase of the advertisement space.</p>
+                            <p>Backed by clear goals and audience data, we secure high-impact ad placements through smart negotiations and strategic timing — all within your budget.</p>
 
-                            <p>A huge part of the media buyer position is negotiating with the sites, networks, and other channels they want ads to appear on. They must ensure they are purchasing the correct placements at the correct times, for the correct duration, all within strict budgets. </p>
+                            <p>But we don't stop there — we monitor performance, optimize in real-time, and ensure every ad delivers maximum ROI and measurable results.</p>
                         </div>
                         <img class="layer"src="../images/layer-12@2x.png" alt="layer">
 
@@ -259,31 +245,6 @@
                         include "subcode/projectsforservises.php"?>
                         </div>
 
-                    </div>
-                    <?php include 'subcode/conectus.php'?>
-                </article>
-                <article class="strategies ">
-                    <div class="article-head-container">
-                            <div class="container">
-                                <div class="article-head">
-                                    <h2>Creating Strategies</h2>
-                                    <p>It is an Important step to know what is the perfect plan for the business itself By generating KPI’s and researching the market </p>                            </div>
-                                <div class="circle-container">
-                                    <div class="circle">
-                                        <img  id="strategies-image"  class="header-image"src="../images/startegy.png" alt="computer-image">
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="work-process">
-                        <div class="container">
-                            <h2>Work Process</h2>
-                            <p>Social Media has enabled most brands and influencers to reach fans and followers at every stage of their journey, so what makes you different? </p>
-
-                            <p>How can you stand out from the crowd? Social has accelerated the speed of culture and your ability to keep pace in this fast environment is central to its long-term success The key ingredient to solve this dilemma is 'great content."</p>
-
-                            <p>To Meet Business Needs Executing Brief , Carry out Marketing Research Generating Items and KPIs ,Content Strategies & what Marketing Strategy Perfect for You </p>
-                        </div>
                     </div>
                     <?php include 'subcode/conectus.php'?>
                 </article>

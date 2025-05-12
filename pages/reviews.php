@@ -11,19 +11,19 @@
 <main>
 <section class="review-page">
     <div class="container">
-        <div class="review-header">
+        <div class="review-header fade-in-section">
             <h1>Reviews from our Clients</h1>
             <p>Check what our clients say about our work</p>
         </div>
-        <div class="reviews-container">
+        <div class="reviews-container fade-in-section delay-200">
         <?php include 'subcode/reviewsinclude.php'?>
         </div>
     </div>
-    <div class="be-with-us">
+    <div class="be-with-us fade-in-section delay-400">
         <div class="container">
-        <h2>We’re Sure You Have </br>
+        <h2>We're Sure You Have </br>
             an Amazing Idea</h2>
-        <p>Let’s discuss how to bring it to life.</p>
+        <p>Let's discuss how to bring it to life.</p>
 
                 <a class="touch" href="contact.php">Contact Us</a>
             </div>

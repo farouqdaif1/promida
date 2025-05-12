@@ -11,19 +11,19 @@
 <section class="promida-work-section">
     <div class="container">
         <div class="promida-work">
-            <div class="work-header">
+            <div class="work-header fade-in-section">
                 <h1>Our Amazing projects</h1>
                 <p>Every project is a piece in Our hearts <br>
                         Check out Every Category , Every style of Business Crafted perfectly.
                         </p>
             </div>
         </div>
-        <img class="girl" src="../images/portrait-young-woman-who-is-posing-covered-with-black-paint@2x.png" alt="girl">
+        <img class="girl fade-in-section delay-200" src="../images/portrait-young-woman-who-is-posing-covered-with-black-paint@2x.png" alt="girl">
     </div>
     </section>
     <section class="parent-work">
     <div  id="projects-small">
-        <div class="all-projects-small">
+        <div class="all-projects-small fade-in-section delay-400">
                 Filter by 
                <span class="All clicked filter">All</span>
             /  <span class="Branding filter">Branding</span> 
@@ -32,7 +32,7 @@
             /  <span class="Media Production filter">Media Production</span> 
             /  <span class="Web Development filter">Web Development & UI/UX</span></div>
         </div>
-        <div class="container projects  ">
+        <div class="container projects fade-in-section delay-600">
         <?php include "subcode/projects.php"?>
         </div>
     </section>
@@ -116,6 +116,13 @@
         window.addEventListener('load',function(){
             loader.style.display="none"
         })
+</script>
+<script>
+  window.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.modal').forEach(function(modal) {
+      document.body.appendChild(modal);
+    });
+  });
 </script>
 </body>
 </html>

@@ -10,8 +10,8 @@
                     <ul class="ul-links active">
                         <li><a class="links" href="../index.php"> Home</a></li>
                         <li><a class="links" href="services.php"> Services</a></li>
-                        <li><a class="links" href="work.php"> Work</a></li>
-                        <li><a class="links" href="people.php">Our team</a></li>
+                        <li><a class="links" href="work.php"> Achievements</a></li>
+                        <li><a class="links" href="people.php">Our heroes</a></li>
                         <li><a class="links" href="about.php"> About us</a></li>
                         <li><a class="links" href="reviews.php"> Reviews</a></li>
                     </ul>

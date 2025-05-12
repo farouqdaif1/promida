@@ -1,6 +1,6 @@
 <?php
     // API call to fetch meta data
-    $api_url = 'http://localhost:1337/api/metas?populate=*';
+    $api_url = 'http://strapi.promida.net:3000/api/metas?populate=*';
     $meta_data = json_decode(file_get_contents($api_url), true);
     
     // Check if we have data before accessing it

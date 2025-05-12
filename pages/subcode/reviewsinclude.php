@@ -1,6 +1,6 @@
 <?php
     // Define API endpoint
-    $api_url = 'http://localhost:1337/api/reviews?populate=*';
+    $api_url = 'http://strapi.promida.net:3000/api/reviews?populate=*';
     
     // Function to safely fetch data with error handling
     function fetchApiData($url) {
@@ -37,15 +37,14 @@
             $reviewer_review = $review['review'] ?? '';
             
             // Handle image URL - check if avatar exists and use appropriate path
-            $image_base_url = 'http://localhost:1337';
             $reviewer_img = '';
             
             if (isset($review['avater']) && isset($review['avater']['url'])) {
                 // Use medium format if available, otherwise use the main URL
                 if (isset($review['avater']['formats']['medium']['url'])) {
-                    $reviewer_img = $image_base_url . $review['avater']['formats']['medium']['url'];
+                    $reviewer_img = $review['avater']['formats']['medium']['url'];
                 } else {
-                    $reviewer_img = $image_base_url . $review['avater']['url'];
+                    $reviewer_img = $review['avater']['url'];
                 }
             } else {
                 // Fallback image if no avatar is available

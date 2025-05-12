@@ -11,11 +11,11 @@
     <section>
     <div class="container">
         <div class="promida-hero">
-            <div class="hero-header">
+            <div class="hero-header fade-in-section">
                 <h1>Promida</br>Super Heros</h1>
                 <p>Each work Has come to a result because of PROMIDA Super Heros there is no perfect work without An Amazing Team Get to know them in person !. </p>
             </div>
-            <div class="hero-image">
+            <div class="hero-image fade-in-section delay-200">
               <img src="../images/Group 29.png" alt="person">
             </div>
         </div>
@@ -25,7 +25,7 @@
         <div class="container">
         <?php
             // Define API endpoint
-            $api_url = 'http://localhost:1337/api/teams?populate=*';
+            $api_url = 'http://strapi.promida.net:3000/api/teams?populate=*';
             
             // Function to safely fetch data with error handling
             function fetchApiData($url) {
@@ -55,8 +55,7 @@
             
             // Check if we have data to display
             if (!empty($team_data['data'])) {
-                $image_base_url = 'http://localhost:1337';
-                
+                $delay = 0;
                 foreach ($team_data['data'] as $team_member) {
                     // Extract data safely with fallbacks
                     $member_name = $team_member['name'] ?? 'Unknown Name';
@@ -68,24 +67,25 @@
                     if (isset($team_member['photo']) && isset($team_member['photo']['url'])) {
                         // Use medium format if available for better performance vs quality balance
                         if (isset($team_member['photo']['formats']['medium']['url'])) {
-                            $member_img = $image_base_url . $team_member['photo']['formats']['medium']['url'];
+                            $member_img = $team_member['photo']['formats']['medium']['url'];
                         } else {
-                            $member_img = $image_base_url . $team_member['photo']['url'];
+                            $member_img = $team_member['photo']['url'];
                         }
                     }
                     
-                    // Output the team member HTML
-                    echo "<div class='hero-container'>
+                    // Output the team member HTML with fade-in-section class and delay
+                    echo "<div class='hero-container fade-in-section delay-" . $delay . "'>
                         <img class='image-hero' src='" . htmlspecialchars($member_img) . "' alt='" . htmlspecialchars($member_name) . "'/>
                         <div class='hero-info'>
                             <p class='hero-first-paragraph'>" . htmlspecialchars($member_name) . "</p>
                             <p class='hero-sec-paragraph'>" . htmlspecialchars($member_title) . "</p>
                         </div>
                     </div>";
+                    $delay += 200; // Increment delay for next member
                 }
             } else {
                 // Fallback content if no team members are found
-                echo "<div class='hero-container'>
+                echo "<div class='hero-container fade-in-section'>
                     <img class='image-hero' src='../images/default-profile.jpg' alt='Default profile'/>
                     <div class='hero-info'>
                         <p class='hero-first-paragraph'>John Doe</p>
@@ -93,7 +93,7 @@
                     </div>
                 </div>";
                 
-                echo "<div class='hero-container'>
+                echo "<div class='hero-container fade-in-section delay-200'>
                     <img class='image-hero' src='../images/default-profile.jpg' alt='Default profile'/>
                     <div class='hero-info'>
                         <p class='hero-first-paragraph'>Jane Smith</p>
@@ -103,7 +103,7 @@
             }
         ?>
         </div>
-        <div class="be-with-us">
+        <div class="be-with-us fade-in-section">
         <div class="container">
                 <h2>Want To Join Our Team ?</h2>
                 <a class="touch" href="contact.php">Apply Now</a>

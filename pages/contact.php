@@ -10,7 +10,7 @@
     <main>
         <section class="contact-page">
             <div class="container">
-                <div class="tack-with-us">
+                <div class="tack-with-us fade-in-section">
                     <h1>Let's talk with Us</h1>
                     <p class='des'>Have a project in mind that you think we'd be a great fit for it? we'd love to know what you're</p>
                         <div class="form-links">
@@ -25,7 +25,7 @@
                         <p>Address: <a href="https://goo.gl/maps/n66VcQgAd52Cx6tJA">Fuad st. " AL-Horya Rd" Alexandria Egypt </a></p>
                     </div>
                 </div>
-                <form action="mail.php" method="POST" class="form-talk " id="company-form">
+                <form action="mail.php" method="POST" class="form-talk fade-in-section delay-200" id="company-form">
                     <div class="box1">
                         <div class="box">
                             <label for="fname">First name</label>
@@ -50,7 +50,7 @@
                     <textarea placeholder="Describe yourself here..." id="message" name="message" rows="4" cols="50"></textarea>
                     <input class="submit" type="submit" value="Send Massage">
                 </form>
-                <form action="maile.php" method="POST" class="form-talk show"  id="employee-form" enctype="multipart/form-data">
+                <form action="maile.php" method="POST" class="form-talk show fade-in-section delay-200"  id="employee-form" enctype="multipart/form-data">
                     <div class="box1">
                         <div class="box">
                             <label for="fname">First name</label>

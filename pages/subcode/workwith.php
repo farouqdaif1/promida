@@ -5,7 +5,7 @@
                 <div class="image-container">
                     <?php
                         // Define API endpoint for company logos
-                        $api_url = 'http://localhost:1337/api/work-withs?populate=*';
+                        $api_url = 'http://strapi.promida.net:3000/api/work-withs?populate=*';
                         
                         // Function to safely fetch data with error handling
                         function fetchApiData($url) {
@@ -35,16 +35,14 @@
                         
                         // Check if we have data to display
                         if (!empty($company_data['data'])) {
-                            $image_base_url = 'http://localhost:1337';
-                            
                             foreach ($company_data['data'] as $company) {
                                 // Check if logo exists
                                 if (isset($company['logo']) && isset($company['logo']['url'])) {
                                     // Use small format if available for better performance with logos
                                     if (isset($company['logo']['formats']['small']['url'])) {
-                                        $logo_url = $image_base_url . $company['logo']['formats']['small']['url'];
+                                        $logo_url = $company['logo']['formats']['small']['url'];
                                     } else {
-                                        $logo_url = $image_base_url . $company['logo']['url'];
+                                        $logo_url = $company['logo']['url'];
                                     }
                                     
                                     echo "<img class='image-logo' alt='Company logo' src='" . htmlspecialchars($logo_url) . "'/>";
@@ -60,20 +58,27 @@
                         }
                     ?>
                 </div>
-            <h3>More than 100 clients</h3>
+            <h3>More than 200 Clients All Over Middle East</h3>
         </div>
         <div class="story-container">
             <div class="swiper">
                 <div class="swiper-wrapper">
                     <?php
                         // Define API endpoint for stories
-                        $stories_api_url = 'http://localhost:1337/api/stories?populate=*';
+                        $stories_api_url = 'http://strapi.promida.net:3000/api/stories?populate=*';
                         
                         // Fetch stories data
                         $story_data = fetchApiData($stories_api_url);
                         
                         // Check if we have stories to display
                         if (!empty($story_data['data'])) {
+                            // Sort stories by year chronologically
+                            usort($story_data['data'], function($a, $b) {
+                                $year_a = isset($a['year']) ? (int)$a['year'] : 0;
+                                $year_b = isset($b['year']) ? (int)$b['year'] : 0;
+                                return $year_a - $year_b;
+                            });
+                            
                             foreach ($story_data['data'] as $story) {
                                 // Extract data safely with fallbacks
                                 $story_year = $story['year'] ?? 'Unknown Year';

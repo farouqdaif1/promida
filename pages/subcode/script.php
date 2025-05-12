@@ -9,3 +9,5 @@ const button= document.querySelector('.close-btn')
 menu.addEventListener('click', showMenu);
 button.addEventListener('click', showMenu);
 </script>
+<!-- Fade effects script -->
+<script src="../js/fade-effects.js"></script>

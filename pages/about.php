@@ -8,7 +8,7 @@
 <div class="parent">
 <?php include 'subcode/header.php'?>
 <main class="about-us-page">
-    <section class="about-header">
+    <section class="about-header fade-in-section">
         <div class="container">
             <h1>It began with a search for glory and strength </h1>
             <h2>That's how you what to begin too</h2>
@@ -16,14 +16,14 @@
     </section >
     <section class="about-main">
         <div class="container">
-            <div class="about-part-one">
+            <div class="about-part-one fade-in-section">
                 <p>
                 Full-Service Masterly agency that provides a wide range of services in almost all aspects of marketing and advertising. 
                 We are  people, relationships and the convergence of vision, focus and teamwork to deliver the best digital strategies and results your brand is looking.
                 </p>
                 <h3>WE ARE 1<sup>st</sup> Digital Marketing Agency  in Delta Region </h3>
             </div>
-            <div class="about-part-two">
+            <div class="about-part-two fade-in-section delay-200">
                 <div class="mission">
                     <h3>Our Mission</h3>
                     <p>Providing The best Action plan Suits Your Business 
@@ -46,11 +46,11 @@
                     </ul>
                 </div>
             </div>
-            <div class="about-part-three">
+            <div class="about-part-three fade-in-section delay-400">
                 <img src="../images/keyboard.png" alt="keyboard">
                 <p>We help any business by guiding to choose the right platform with suitable plan in digital marketing services </p>
             </div>
-            <div class="about-part-four">
+            <div class="about-part-four fade-in-section delay-600">
                 <div class="unique">
                 <div>
                 <h3>Unique Feature</h3>

@@ -11,20 +11,20 @@
     <main >
         <section class="fqa-section">
             <div class="container">
-                <div class="heading">
+                <div class="heading fade-in-section">
                         <h1>A Frequently Asked Questions</h1>
                         <p>Check Out Our FAQ to Know How we Do it Amazingly! <br> Still If you Needed to know More  <a class="faq-link" href="contact.php"> Get In Touch With Us. </a> </p>
                 </div>
                 <section class="faq-container">
-                        <div class="faq">
+                        <div class="faq fade-in-section">
                             <!-- faq question -->
                             <p class="faq-page">Does my business really need digital marketing?</p>
                             <!-- faq answer -->
                             <div class="faq-body">
-                                <p>Any Business Needs Digital Marketing or At least The Common Service “ Social Media Marketing “ as It is Vital to Build a Solid Relationship with your Customer. </p>
+                                <p>Any Business Needs Digital Marketing or At least The Common Service " Social Media Marketing " as It is Vital to Build a Solid Relationship with your Customer. </p>
                             </div>
                         </div>
-                        <div class="faq">
+                        <div class="faq fade-in-section delay-200">
                             <!-- faq question -->
                             <p class="faq-page">Do you have a portfolio or samples of your past campaigns or client work?</p>
                             <!-- faq answer -->
@@ -32,7 +32,7 @@
                                 <p>You Can Check Our Portfolio on Our Behance or our section on our website from <a class="faq-link" href="work.php">here</a>.</p>
                             </div>
                         </div>
-                        <div class="faq">
+                        <div class="faq fade-in-section delay-400">
                             <!-- faq question -->
                             <p class="faq-page">How Do You Work ?</p>
                                             <!-- faq answer -->
@@ -40,7 +40,7 @@
                                 <p>We Assigns to you one Key-Person From the team & Executing Precise Marketing Plan to your Business .</p>
                             </div>
                         </div>
-                        <div class="faq">
+                        <div class="faq fade-in-section delay-600">
                             <!-- faq question -->
                             <p class="faq-page">What Packages Do you Provide ?</p>
                                             <!-- faq answer -->
@@ -48,7 +48,7 @@
                                 <p>Typically we don't provide packages for our campaigns, instead our services are fully customizable and flexible to meet our customers' need and avoid unwanted service.</p>
                                 </div>
                         </div>
-                        <div class="faq">
+                        <div class="faq fade-in-section delay-800">
                             <!-- faq question -->
                             <p class="faq-page">Why Us ?</p>
                                 <!-- faq answer -->
